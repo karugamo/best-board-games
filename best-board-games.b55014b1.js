@@ -39,4 +39,4 @@ var e=require("process");Object.defineProperty(exports,"__esModule",{value:!0}),
 },{"react":"HdMw","styled-components":"OuUI"}],"zo2T":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("react")),r=e(require("react-dom")),u=e(require("./src/App"));r.default.render(t.default.createElement(u.default,null),document.getElementById("root"));
 },{"react":"HdMw","react-dom":"X9zx","./src/App":"Ru8j"}]},{},["zo2T"], null)
-//# sourceMappingURL=/react-template/best-board-games.b55014b1.js.map
+//# sourceMappingURL=/best-board-games.b55014b1.js.map
