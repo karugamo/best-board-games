@@ -1,17 +1,39 @@
 import React from 'react'
 import styled from 'styled-components'
+import games from '../games.json'
+import Game from './Game'
 
 export default function App() {
-  return <Main>a nice new project</Main>
+  return (
+    <Main>
+      <Title>THE BEST BOARD GAMES</Title>
+      <GamesContainer>
+        {games.map((game) => {
+          const {
+            name,
+            images: {mediacard}
+          } = game
+          return <Game key={name} image={mediacard['src@2x']} />
+        })}
+      </GamesContainer>
+    </Main>
+  )
 }
+
+const Title = styled.h1``
 
 const Main = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  margin: 10px;
+`
 
-  background-color: #eeeee4;
+const GamesContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   color: #242422;
-  font-size: 75px;
 `
