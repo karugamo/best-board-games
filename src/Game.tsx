@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default function Game({image = '', url = ''}) {
+export default function Game({image = '', url = '', name = ''}) {
   return (
     <GameContainer>
       <Link target="_blank" href={url}>
-        <Image src={image} />
+        <Image src={image} alt={name} title={name} />
       </Link>
     </GameContainer>
   )

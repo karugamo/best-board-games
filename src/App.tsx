@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import games from '../games.json'
+import games from '../coop-games.json'
 import Game from './Game'
 import Logo from './Logo'
 
@@ -8,18 +8,16 @@ export default function App() {
   return (
     <Main>
       <Logo />
+      <h2>Cooperative Games</h2>
       <GamesContainer>
         {games.map((game) => {
-          const {
-            name,
-            href,
-            images: {mediacard}
-          } = game
+          const {name, href, image} = game
           return (
             <Game
               key={name}
+              name={name}
               url={`https://boardgamegeek.com${href}`}
-              image={mediacard['src@2x']}
+              image={image}
             />
           )
         })}
@@ -34,7 +32,7 @@ const Main = styled.div`
   align-items: center;
   justify-content: center;
   margin: 10px;
-  color: rgb(255, 255, 255, 0.9);
+  color: #262e6e;
 `
 
 const GamesContainer = styled.div`

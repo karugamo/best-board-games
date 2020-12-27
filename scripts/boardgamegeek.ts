@@ -18,12 +18,16 @@ async function main() {
   const allGameDetails = await Promise.all(
     bestCoop.map((id) => getGameDetails(id))
   )
-  const data = allGameDetails.map((details) => ({
-    href: details.linkeditem.href,
-    name: details.linkeditem.name,
-    image: details.linkeditem.image.images.mediacard['src@2x']
-  }))
-  console.log(data)
+  const data = allGameDetails.map((details) => {
+    return {
+      href: details.linkeditem.href,
+      name: details.linkeditem.name,
+      image:
+        details.linkeditem.image.images.mediacard['src@2x'] ||
+        details.linkeditem.image.images.mediacard.src
+    }
+  })
+  // console.log(data)
   writeFileSync('./coop-games.json', JSON.stringify(data, null, '  '))
 }
 
