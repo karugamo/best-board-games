@@ -11,9 +11,16 @@ export default function App() {
         {games.map((game) => {
           const {
             name,
+            href,
             images: {mediacard}
           } = game
-          return <Game key={name} image={mediacard['src@2x']} />
+          return (
+            <Game
+              key={name}
+              url={`https://boardgamegeek.com${href}`}
+              image={mediacard['src@2x']}
+            />
+          )
         })}
       </GamesContainer>
     </Main>
