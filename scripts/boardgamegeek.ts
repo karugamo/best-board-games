@@ -1,26 +1,20 @@
 import {writeFileSync} from 'fs'
 import got from 'got'
 import {JSDOM} from 'jsdom'
-import {GeekGame, GeekItem} from './boardgamegeek.type'
+import {GeekGame} from './boardgamegeek.type'
 
-async function getGameDetails(objectid): Promise<GeekGame> {
+type GameId = string
+
+async function getGameDetails(objectid: GameId): Promise<GeekGame> {
   const url = `https://api.geekdo.com/api/geekmarket/products?ajax=1&nosession=1&objectid=${objectid}&objecttype=thing&pageid=1&showcount=1`
   return await got(url).json()
 }
 
-export async function getBestCoopGames(): Promise<string[]> {
-  const url = `https://api.geekdo.com/api/geekitem/linkeditems?ajax=1&linkdata_index=boardgame&nosession=1&objectid=2023&objecttype=property&pageid=1&showcount=10000&sort=rank&subtype=boardgamemechanic`
-  const response: GeekItem = await got(url).json()
-  return response.items.map(({objectid}) => objectid as string)
-}
-
-async function getBestStrategyGames(): Promise<string[]> {
-  const url = `https://boardgamegeek.com/geekitem.php?instanceid=6&objecttype=family&objectid=5497&subtype=boardgamesubdomain&pageid=1&sort=rank&view=boardgames&modulename=linkeditems&callback=&showcount=50&filters[categoryfilter]=&filters[mechanicfilter]=&action=linkeditems&ajax=1`
+async function getBestGameIds(): Promise<GameId[]> {
+  const url = `https://boardgamegeek.com/browse/boardgame`
   const response = await got(url)
   const document = new JSDOM(response.body).window.document
-  const links = Array.from(
-    document.querySelectorAll('.geekitem_linkeditems_title a')
-  )
+  const links = Array.from(document.querySelectorAll('.collection_thumbnail a'))
   const ids = links.map((link) => link.getAttribute('href').split('/')[2])
 
   return ids
@@ -31,9 +25,8 @@ async function getAllGameDetails(ids: string[]) {
 }
 
 async function main() {
-  const bestStrategy = await getBestStrategyGames()
-  // const bestCoop = await getBestCoopGames()
-  const allGameDetails = await getAllGameDetails(bestStrategy)
+  const bestGameIds = await getBestGameIds()
+  const allGameDetails = await getAllGameDetails(bestGameIds)
 
   const data = allGameDetails.map((details) => {
     return {
@@ -44,7 +37,7 @@ async function main() {
         details.linkeditem.image.images.mediacard.src
     }
   })
-  writeFileSync('./coop-games.json', JSON.stringify(data, null, '  '))
+  writeFileSync('./games.json', JSON.stringify(data, null, '  '))
 }
 
 main()

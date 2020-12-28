@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import games from '../coop-games.json'
+import games from '../games.json'
 import Game from './Game'
 import Logo from './Logo'
 
@@ -8,7 +8,6 @@ export default function App() {
   return (
     <Main>
       <Logo />
-      <h2>Strategy Games</h2>
       <GamesContainer>
         {games.map((game) => {
           const {name, href, image} = game

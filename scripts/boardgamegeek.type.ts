@@ -6,14 +6,14 @@ export interface GeekGame {
   config: Config
 }
 
-export interface Config {
+interface Config {
   numitems: number
   itemsperpage: number
   _shiparea: null
   _shipareas: null
 }
 
-export interface Linkeditem {
+interface Linkeditem {
   type: string
   id: string
   name: string
@@ -28,12 +28,12 @@ export interface Linkeditem {
   associtem?: Associtem
 }
 
-export interface Associtem {
+interface Associtem {
   type: string
   id: string
 }
 
-export interface Image {
+interface Image {
   type: string
   id: string
   dimensions: Dimensions
@@ -53,12 +53,12 @@ export interface Image {
   links: Link[]
 }
 
-export interface Dimensions {
+interface Dimensions {
   width: number
   height: number
 }
 
-export interface Images {
+interface Images {
   micro: Crop100
   small: Large
   medium: Large
@@ -74,12 +74,12 @@ export interface Images {
   original: Large
 }
 
-export interface Crop100 {
+interface Crop100 {
   url: string
   src: string
 }
 
-export interface Large {
+interface Large {
   url: string
   src: string
   width: number
@@ -87,27 +87,27 @@ export interface Large {
   'src@2x'?: string
 }
 
-export interface Mediacard {
+interface Mediacard {
   url: string
   src: string
   'src@2x': string
 }
 
-export interface Link {
+interface Link {
   rel: string
   uri: string
 }
 
-export interface ImageSets {
+interface ImageSets {
   square100: Square100
 }
 
-export interface Square100 {
+interface Square100 {
   src: string
   'src@2x': string
 }
 
-export interface Product {
+interface Product {
   productid: string
   objecttype: string
   objectid: string
@@ -132,7 +132,7 @@ export interface Product {
   linkeduserGeekMarket: LinkeduserGeekMarket
 }
 
-export interface Linkeduser {
+interface Linkeduser {
   type: string
   id: string
   userid: number
@@ -157,151 +157,26 @@ export interface Linkeduser {
   avatar: Avatar
 }
 
-export interface Avatar {
+interface Avatar {
   urls: Urls
   height: number
   width: number
 }
 
-export interface Urls {
+interface Urls {
   md: string
   sm: string
   default: string
 }
 
-export interface UserMicrobadge {
+interface UserMicrobadge {
   slot: number
   badgeid: number
 }
 
-export interface LinkeduserGeekMarket {
+interface LinkeduserGeekMarket {
   feedbackrating: string
   vacation: boolean
   adminsuspend: boolean
   itemsig: string
-}
-
-export interface GeekItem {
-  items: Item[]
-  itemdata: Itemdatum[]
-  linkdata: any[]
-  config: ConfigGeekItem
-}
-
-export interface ConfigGeekItem {
-  numitems: number
-  sortdata: Sortdatum[]
-  filters: Filter[]
-}
-
-export interface Filter {
-  key: string
-  options: FilterOption[]
-  title: string
-}
-
-export interface FilterOption {
-  objectid: string
-  name: string
-}
-
-export interface Sortdatum {
-  title: string
-  hidden?: boolean
-  key: string
-  onzero?: string
-  href?: string
-  string_format?: string
-}
-
-export interface Itemdatum {
-  datatype: Datatype
-  fieldname?: string
-  title: string
-  primaryname?: boolean
-  required?: boolean
-  unclickable?: boolean
-  fullcredits?: boolean
-  subtype?: Subtype
-  keyname: string
-  alternate?: boolean
-  createposttext?: string
-  posttext?: string
-  createtitle?: string
-  table?: string
-  options?: ItemdatumOption[]
-  adminonly?: boolean
-  nullable?: boolean
-  validatemethod?: string
-  maxlength?: number
-  editfieldsize?: number
-  other_objecttype?: string
-  other_subtype?: string
-  linktype?: string
-  self_prefix?: SelfPrefix
-  titlepl?: string
-  lookup_subtype?: string
-  showall_ctrl?: boolean
-  loadlinks?: boolean
-  uneditable?: boolean
-  correctioncomment?: string
-  addnew?: boolean
-  adminaccess?: string[]
-  polltype?: string
-}
-
-export enum Datatype {
-  GeekitemFielddata = 'geekitem_fielddata',
-  GeekitemLinkdata = 'geekitem_linkdata',
-  GeekitemPolldata = 'geekitem_polldata'
-}
-
-export interface ItemdatumOption {
-  value: number
-  title: string
-}
-
-export enum SelfPrefix {
-  Dst = 'dst',
-  Src = 'src'
-}
-
-export enum Subtype {
-  Boardgame = 'boardgame'
-}
-
-export interface Item {
-  usersrated: string
-  average: string
-  avgweight: string
-  numowned: string
-  numprevowned: string
-  numtrading: string
-  numwanting: string
-  numwish: string
-  numcomments: string
-  yearpublished: string
-  rank: string
-  name: string
-  postdate: Date
-  linkid: string
-  linktype: string
-  objecttype: string
-  objectid: string
-  itemstate: string
-  rep_imageid: string
-  subtype: Subtype
-  links: any[]
-  href: string
-  images: GeekItemImages
-}
-
-export interface GeekItemImages {
-  thumb: string
-  micro: string
-  square: string
-  squarefit: string
-  tallthumb: string
-  previewthumb: string
-  square200: string
 }
