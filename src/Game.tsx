@@ -18,5 +18,6 @@ const Link = styled.a``
 const Image = styled.img`
   width: 444px;
   height: 250px;
-  margin: 1rem;
+  object-fit: contain;
+  background-color: #77483b;
 `
