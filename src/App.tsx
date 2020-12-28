@@ -8,7 +8,7 @@ export default function App() {
   return (
     <Main>
       <Logo />
-      <h2>Cooperative Games</h2>
+      <h2>Strategy Games</h2>
       <GamesContainer>
         {games.map((game) => {
           const {name, href, image} = game
