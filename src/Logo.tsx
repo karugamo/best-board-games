@@ -11,7 +11,7 @@ export default function Logo() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <title>best board games</title>
-      <path d="M28 2H2V28H28V2Z" fill="#FFFFC3" />
+      <path d="M28 2H2V28H28V2Z" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
