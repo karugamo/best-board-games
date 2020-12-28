@@ -39,7 +39,7 @@ async function getGame(id: GameId): Promise<GeekGame> {
     .querySelector('meta[name~="title"]')
     .getAttribute('content')
 
-  const color = await showColors(image, 1)
+  const color: string = (await showColors(image, 1))[0]
   return {
     image,
     name,
