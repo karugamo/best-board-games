@@ -3,10 +3,12 @@ import styled from 'styled-components'
 import {GeekGame} from '../types'
 
 export default function Game(game: GeekGame) {
-  const {href, name, image, color} = game
+  const {href, name, image, color, asin} = game
+
+  const link = asin ? `https://www.amazon.com/dp/${asin}?tag=karugamo-20` : href
   return (
     <GameContainer>
-      <Link target="_blank" href={href}>
+      <Link target="_blank" href={link}>
         <Image src={image} alt={name} title={name} color={color} />
       </Link>
     </GameContainer>

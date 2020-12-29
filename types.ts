@@ -3,4 +3,7 @@ export type GeekGame = {
   name: string
   image: string
   color: string
+  asin?: string
 }
+
+export type GameId = string
