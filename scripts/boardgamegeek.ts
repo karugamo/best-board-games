@@ -1,16 +1,13 @@
 import {writeFileSync} from 'fs'
 import got from 'got'
 import {JSDOM} from 'jsdom'
-import {showColors} from 'dominant-colors'
 import {GameId, GeekGame} from '../types'
+import Vibrant = require('node-vibrant')
 
 async function main() {
   const bestGameIds = await getBestGameIds()
   console.log(`Received ${bestGameIds.length} games`)
   const data = await getAllGameDetails(bestGameIds)
-  console.log('Fetching details...')
-
-  console.log(await getASIN(bestGameIds[0]))
 
   writeFileSync('./games.json', JSON.stringify(data, null, '  '))
 }
@@ -50,11 +47,11 @@ async function getGame(id: GameId): Promise<GeekGame> {
     .getAttribute('content')
 
   const asin = await getASIN(id)
-  const color: string = (await showColors(image, 1))[0]
+  const palette = await Vibrant.from(image).getPalette()
   return {
     image,
     name,
-    color,
+    color: palette.LightMuted.hex,
     href: url,
     asin
   }
