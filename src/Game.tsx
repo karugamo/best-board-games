@@ -12,7 +12,7 @@ export default function Game({game}: {game: GeekGame}) {
         <Image
           src={image}
           alt={name}
-          title={`${name} (${weight})`}
+          title={`${name} (Complexity: ${weight.toFixed(1)})`}
           color={color}
         />
       </Link>
