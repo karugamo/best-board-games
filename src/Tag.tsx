@@ -9,9 +9,9 @@ const Tag = styled.div<TagProps>`
   text-align: center;
   padding: 4px 10px;
   margin-left: 4px;
-  background: ${({inverted}) => (inverted ? '#ddd' : '#272e6e')};
-  border: 2px solid ${({inverted}) => (inverted ? '#CCCCCC' : '#272e6e')};
-  color: ${({inverted}) => (inverted ? '#272e6e' : '#DDDDDD')};
+  background: ${({inverted}) => (inverted ? '#272e6e' : '#ddd')};
+  border: 2px solid ${({inverted}) => (inverted ? '#272e6e' : '#ccc')};
+  color: ${({inverted}) => (inverted ? '#ddd' : '#272e6e')};
   font-weight: 500;
   cursor: pointer;
   user-select: none;
