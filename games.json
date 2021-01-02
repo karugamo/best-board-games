@@ -3060,5 +3060,2910 @@
       "Country: Spain",
       "Game: Pandemic"
     ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/VJwOnMF5vwJg2Yaq6ozn3Q__opengraph_left/img/EZ4Q4sL8NNVg1dLlPDwguVg3b0I=/fit-in/445x445/filters:strip_icc()/pic2869714.jpg",
+    "name": "Champions of Midgard",
+    "color": "hsla(51, 14%, 90%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/172287",
+    "asin": "B014TKCZ4K",
+    "weight": 2.5993,
+    "minAge": 10,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Dice Rolling",
+      "Set Collection",
+      "Variable Player Powers",
+      "Worker Placement",
+      "Game: Champions of Midgard",
+      "Mythology: Norse",
+      "Theme: Vikings"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/RmZjhy7_6REp8IaXh9Zqwg__opengraph_letterbox/img/r7zAN28w4XO9Bf6edLX_KblAxGQ=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic3979527.jpg",
+    "name": "Kemet",
+    "color": "hsla(22, 49%, 36%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/127023",
+    "asin": "B00B9X04F8",
+    "weight": 3.0078,
+    "minAge": 13,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      90,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Points",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Card Drafting",
+      "Card Play Conflict Resolution",
+      "Hand Management",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Country: Egypt",
+      "Creatures: Monsters",
+      "Game: Kemet",
+      "Mythology: Egyptian"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/ocI_xrJ7A-cDTTMUoYBNzw__opengraph/img/Tl8-tI6QvYOnRsMHvULLrNvdUkg=/fit-in/1200x630/filters:strip_icc()/pic3600984.jpg",
+    "name": "Yokohama",
+    "color": "hsla(188, 76%, 77%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/196340",
+    "asin": "1938146050",
+    "weight": 3.2826,
+    "minAge": 14,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      90,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Contracts",
+      "End Game Bonuses",
+      "Grid Movement",
+      "Modular Board",
+      "Network and Route Building",
+      "Set Collection",
+      "Cities: Yokohama (Japan)",
+      "Country: Japan",
+      "Crowdfunding: Kickstarter",
+      "Game: Yokohama"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/WlvyznYhlYNXMtMbKKu1oA__opengraph_left/img/k76beGXUQRTXl3csruvZL5x4myM=/fit-in/445x445/filters:strip_icc()/pic2471359.jpg",
+    "name": "Forbidden Stars",
+    "color": "hsla(180, 2%, 18%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/175155",
+    "asin": "B01HGR0XVA",
+    "weight": 3.8237,
+    "minAge": 14,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      120,
+      180
+    ],
+    "categories": [
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Card Play Conflict Resolution",
+      "Dice Rolling",
+      "Hand Management",
+      "Modular Board",
+      "Components: Miniatures",
+      "Setting: Warhammer 40,000 Board Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/hHZWXnUTMYDd_KTAM6Jwlw__opengraph/img/GolsNUAQLz4ixsLDQhFhY-zKxIQ=/fit-in/1200x630/filters:strip_icc()/pic3759421.jpg",
+    "name": "Decrypto",
+    "color": "hsla(215, 34%, 34%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/225694",
+    "asin": "B0765KL7B8",
+    "weight": 1.8087,
+    "minAge": 12,
+    "players": [
+      3,
+      8
+    ],
+    "playtime": [
+      15,
+      45
+    ],
+    "categories": [
+      "Party Games",
+      "Communication Limits",
+      "Targeted Clues",
+      "Team-Based Game",
+      "Mechanism: Give a Clue / Get a Clue",
+      "Word Games: Guess the Word"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/haDQw7X8Z0VOItfow9eDtg__opengraph_left/img/W1Ux4T5bO5LfUS-oCN28pk1IN54=/fit-in/445x445/filters:strip_icc()/pic3720843.jpg",
+    "name": "Clank! In! Space!: A Deck-Building Adventure",
+    "color": "hsla(120, 100%, 1%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/233371",
+    "asin": "B074W2HFRZ",
+    "weight": 2.5306,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      45,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Modular Board",
+      "Pick-up and Deliver",
+      "Player Elimination",
+      "Point to Point Movement",
+      "Game: Clank!"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/6QE8mnPFmauoj2THsyUYPA__opengraph_letterbox/img/T9mCRX1fAVaeLBDQkxFZR8cM7l0=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic4739757.jpg",
+    "name": "Inis",
+    "color": "hsla(217, 4%, 39%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/155821",
+    "asin": "B01JA0L6U8",
+    "weight": 2.8796,
+    "minAge": 14,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Drafting",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Card Drafting",
+      "Hand Management",
+      "King of the Hill",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Components: Multi-Use Cards",
+      "Country: Ireland",
+      "Mythology: Celtic"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/yNqgVxaqoZepir7Hzkfe-Q__opengraph_left/img/un6wpQyq2EJfjZnWc4uxyQzb9dI=/fit-in/445x445/filters:strip_icc()/pic1603292.jpg",
+    "name": "Star Wars: X-Wing Miniatures Game",
+    "color": "hsla(222, 8%, 25%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/103885",
+    "asin": "1616613769",
+    "weight": 2.4861,
+    "minAge": 14,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      30,
+      45
+    ],
+    "categories": [
+      "Customizable Games",
+      "Wargames",
+      "Action Queue",
+      "Critical Hits and Failures",
+      "Dice Rolling",
+      "Movement Template",
+      "Player Elimination",
+      "Simulation",
+      "Game: Star Wars X-Wing Miniatures Game",
+      "Movies: Star Wars",
+      "Players: Two Player Only Games",
+      "Series: FlightPath (Fantasy Flight Game)",
+      "Space: Asteroids"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/elmZegVZ6gp4_5izUgxGQQ__opengraph/img/eoM1k2SvoPt9K9I3q2EvOuIqlTE=/fit-in/1200x630/filters:strip_icc()/pic1632539.jpg",
+    "name": "Stone Age",
+    "color": "hsla(34, 61%, 59%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/34635",
+    "asin": "B00CF4G7OW",
+    "weight": 2.4792,
+    "minAge": 10,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Family Games",
+      "Strategy Games",
+      "Contracts",
+      "Dice Rolling",
+      "End Game Bonuses",
+      "Set Collection",
+      "Turn Order: Progressive",
+      "Worker Placement",
+      "Game: Stone Age"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/ztNshEv3Fsm46HCJaEOFPw__opengraph_left/img/Hz3XTve_74Yk6lDxGWC4fm66TjQ=/fit-in/445x445/filters:strip_icc()/pic2241156.png",
+    "name": "Alchemists",
+    "color": "hsla(12, 45%, 2%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/161970",
+    "asin": "B00S03OIYS",
+    "weight": 3.8984,
+    "minAge": 13,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      120,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Drafting",
+      "Card Drafting",
+      "Constrained Bidding",
+      "End Game Bonuses",
+      "Events",
+      "Hand Management",
+      "Components: Digital Hybrid - App Required",
+      "Theme: Alchemy"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/jSz_KRUxsjGYitoqx9YH1Q__opengraph_letterbox/img/YzjTpCkmqkzu5pwPRPDh0XBg1ME=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic2225180.jpg",
+    "name": "Legendary Encounters: An Alien Deck Building Game",
+    "color": "hsla(276, 5%, 21%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/146652",
+    "asin": "B00MU2DQAW",
+    "weight": 2.7017,
+    "minAge": 17,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Thematic Games",
+      "Card Drafting",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Events",
+      "Hidden Roles",
+      "Player Elimination",
+      "Creatures: Aliens / Extraterrestrials",
+      "Game: Legendary (Upper Deck Entertainment)",
+      "Movies: Alien / Aliens",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/ZN2rpiJ19lg5DZk_iYMMkQ__opengraph_left/img/_JJZosbgIPmXCimvEofKYO1UX5w=/fit-in/445x445/filters:strip_icc()/pic1180640.jpg",
+    "name": "Descent: Journeys in the Dark (Second Edition)",
+    "color": "hsla(0, 100%, 2%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/104162",
+    "asin": "1616611898",
+    "weight": 3.2028,
+    "minAge": 14,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      120,
+      120
+    ],
+    "categories": [
+      "Thematic Games",
+      "Action Points",
+      "Dice Rolling",
+      "Grid Movement",
+      "Hand Management",
+      "Line of Sight",
+      "Modular Board",
+      "Category: Dungeon Crawler",
+      "Components: Miniatures",
+      "Creatures: Monsters",
+      "Game: Descent – Journeys in the Dark",
+      "Mechanism: Campaign Games",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/EsJqPL5CB_TMt0MYL-lnVg__opengraph/img/Ac7MNck5YP38Cvlu9pcWv35Gn6A=/fit-in/1200x630/filters:strip_icc()/pic1903816.jpg",
+    "name": "Star Realms",
+    "color": "hsla(0, 0%, 2%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/147020",
+    "asin": "B00HRGMPIU",
+    "weight": 1.9432,
+    "minAge": 12,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      20,
+      20
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Take That",
+      "Crowdfunding: Kickstarter",
+      "Game: Star Realms",
+      "Players: Two Player Only Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/JuyN9UOenAG_BlO-APPpdw__opengraph_left/img/38D0eDMKzq5Ec62qlHhXvPDMoP0=/fit-in/445x445/filters:strip_icc()/pic2649446.jpg",
+    "name": "Vinhos Deluxe Edition",
+    "color": "hsla(49, 33%, 6%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/175640",
+    "asin": "B01M10GAMH",
+    "weight": 4.0375,
+    "minAge": 14,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      60,
+      135
+    ],
+    "categories": [
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Variable Phase Order",
+      "Worker Placement",
+      "Country: Portugal",
+      "Crowdfunding: Giochistarter",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Spieleschmiede",
+      "Food & Drink: Wine",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/YXYqQZ05gC9kNlgX7cbR8g__opengraph_letterbox/img/Reorp1RFs9aY9dJVD_uoJsOwUlw=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic3913274.jpg",
+    "name": "Endeavor: Age of Sail",
+    "color": "hsla(144, 14%, 21%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/233398",
+    "asin": "B07JXNG6HJ",
+    "weight": 2.8101,
+    "minAge": 13,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Card Drafting",
+      "Point to Point Movement",
+      "Set Collection",
+      "Tech Trees / Tech Tracks",
+      "Components: Game Trayz Inside",
+      "Components: Map (Global Scale)",
+      "Crowdfunding: Kickstarter",
+      "History: Age of Discovery",
+      "Region: The World",
+      "Theme: Colonial"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/g4mV4BH-ZrhMUVgil-yV1A__opengraph_left/img/PAnbCHqSjkP7d4lLLvmxBjLwimE=/fit-in/445x445/filters:strip_icc()/pic3016500.jpg",
+    "name": "Dead of Winter: A Crossroads Game",
+    "color": "hsla(0, 100%, 2%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/150376",
+    "asin": "B00HFKITJC",
+    "weight": 3.0132,
+    "minAge": 13,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      60,
+      120
+    ],
+    "categories": [
+      "Thematic Games",
+      "Action Points",
+      "Area Movement",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Hand Management",
+      "Narrative Choice / Paragraph",
+      "Creatures: Zombies",
+      "Series: Crossroads (Plaid Hat Games)",
+      "Theme: Post-Apocalyptic"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/PHH9Mreen2sBcxV6ZsE3ew__opengraph/img/Hlp0V5Pb9mypZpz0tmG9mtfU2V0=/fit-in/1200x630/filters:strip_icc()/pic1885326.jpg",
+    "name": "Istanbul",
+    "color": "hsla(219, 100%, 10%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/148949",
+    "asin": "B00IVF4UK2",
+    "weight": 2.5891,
+    "minAge": 10,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      40,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "Contracts",
+      "Dice Rolling",
+      "Grid Movement",
+      "Modular Board",
+      "Network and Route Building",
+      "Pick-up and Deliver",
+      "Cities: Istanbul (Turkey)",
+      "Country: Turkey",
+      "Game: Istanbul (AEG)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/0K1AOciqlMVUWFPLTJSiww__opengraph_left/img/_2lmRrBuHxOVB4rhF9_9MArsYUQ=/fit-in/445x445/filters:strip_icc()/pic66668.jpg",
+    "name": "Ticket to Ride: Europe",
+    "color": "hsla(0, 0%, 5%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/14996",
+    "asin": "B000809OAO",
+    "weight": 1.9402,
+    "minAge": 8,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "Connections",
+      "Hand Management",
+      "Network and Route Building",
+      "Push Your Luck",
+      "Set Collection",
+      "Components: Map (Continental / National scale)",
+      "Continents: Europe",
+      "Game: Ticket to Ride"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/gBPzZsgm9nrUYVfdK216NA__opengraph/img/yokzq-CQLlvl2dHfcheSx_Gs3B0=/fit-in/1200x630/filters:strip_icc()/pic4557340.png",
+    "name": "Age of Steam",
+    "color": "hsla(180, 7%, 81%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/4098",
+    "asin": "B001TH8LCC",
+    "weight": 3.9038,
+    "minAge": 13,
+    "players": [
+      1,
+      6
+    ],
+    "playtime": [
+      120,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction/Bidding",
+      "Catch the Leader",
+      "Connections",
+      "Dice Rolling",
+      "Loans",
+      "Network and Route Building",
+      "Game: Age of Steam",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/yTe9522sHL-3nhfAMH2cTg__opengraph_left/img/42Z5bVomYDZl3_eN8-P_B7NL2xM=/fit-in/445x445/filters:strip_icc()/pic1318481.jpg",
+    "name": "Chaos in the Old World",
+    "color": "hsla(0, 13%, 9%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/43111",
+    "asin": "1589946510",
+    "weight": 3.1889,
+    "minAge": 13,
+    "players": [
+      3,
+      4
+    ],
+    "playtime": [
+      60,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Thematic Games",
+      "Action Points",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Dice Rolling",
+      "Hand Management",
+      "Role Playing",
+      "Components: Miniatures",
+      "Setting: Warhammer Fantasy Board Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/JmdqlBJBynZMOciZzkVIkw__opengraph_letterbox/img/DDJ8Rr3NyeZNFm3JfB7j10IzJIU=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic725882.jpg",
+    "name": "War of the Ring",
+    "color": "hsla(332, 6%, 42%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/9609",
+    "asin": "1903385113",
+    "weight": 3.8464,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      120,
+      120
+    ],
+    "categories": [
+      "Thematic Games",
+      "Action Points",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Campaign / Battle Card Driven",
+      "Dice Rolling",
+      "Hand Management",
+      "Authors: J.R.R. Tolkien",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Components: Multi-Use Cards",
+      "Series: War of the Ring (Nexus/Ares Games)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/wHg4fOf48cs1kw1PDOk1tQ__opengraph_left/img/QWH5dTwMJK7Frv77vqqbNbp0bAg=/fit-in/445x445/filters:strip_icc()/pic3958793.jpg",
+    "name": "Targi",
+    "color": "hsla(211, 84%, 32%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/118048",
+    "asin": "B07B7TTRDF",
+    "weight": 2.3459,
+    "minAge": 12,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "End Game Bonuses",
+      "Modular Board",
+      "Set Collection",
+      "Turn Order: Progressive",
+      "Worker Placement",
+      "Continents: Africa",
+      "Mechanism: Tableau Building",
+      "Players: Two Player Only Games",
+      "Series: Two-player games (Kosmos)",
+      "Theme: Deserts"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/g4XmxyKhNVdhC3QPd1purQ__opengraph_left/img/-vVEuWGWvRJETrSSBnuz0oKb1Q8=/fit-in/445x445/filters:strip_icc()/pic3761012.jpg",
+    "name": "Welcome To...",
+    "color": "hsla(150, 31%, 67%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/233867",
+    "asin": "B079TQ8V4L",
+    "weight": 1.8079,
+    "minAge": 10,
+    "players": [
+      1,
+      100
+    ],
+    "playtime": [
+      25,
+      25
+    ],
+    "categories": [
+      "Family Games",
+      "Bingo",
+      "Paper-and-Pencil",
+      "Pattern Building",
+      "Solo / Solitaire Game",
+      "Game: Welcome To ...",
+      "Mechanic: Flip-and-write",
+      "Mechanism: Roll-and-write",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__opengraph/img/riz2oGF-1w1T1pIuOkZbkrjJoL0=/fit-in/1200x630/filters:strip_icc()/pic1398895.jpg",
+    "name": "The Resistance: Avalon",
+    "color": "hsla(23, 45%, 74%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/128882",
+    "asin": "B009SAAV0C",
+    "weight": 1.7666,
+    "minAge": 13,
+    "players": [
+      5,
+      10
+    ],
+    "playtime": [
+      30,
+      30
+    ],
+    "categories": [
+      "Party Games",
+      "Hidden Roles",
+      "Roles with Asymmetric Information",
+      "Simultaneous Action Selection",
+      "Team-Based Game",
+      "Traitor Game",
+      "Variable Player Powers",
+      "Crowdfunding: Kickstarter",
+      "Game: Werewolf / Mafia",
+      "Series: Postcard Box Games (Indie Boards and Cards)",
+      "Theme: King Arthur / The Knights of the Round Table / Camelot"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/Sz0wLg3TgycpzSvSMdzRJA__opengraph_letterbox/img/Fw9TRQUSCVHPXEaq_MoYUEGVB9A=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic3869603.jpg",
+    "name": "Railways of the World",
+    "color": "hsla(41, 11%, 46%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/17133",
+    "asin": "B002I61OOU",
+    "weight": 3.0238,
+    "minAge": 10,
+    "players": [
+      2,
+      6
+    ],
+    "playtime": [
+      120,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Points",
+      "Auction/Bidding",
+      "Card Drafting",
+      "Connections",
+      "End Game Bonuses",
+      "Hexagon Grid",
+      "Country: USA",
+      "Game: Railways of the World"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/M_7UvwZvuxBVjxdadsa5AA__opengraph_left/img/3sW533gx27k2ZENJvcinkexsZpc=/fit-in/445x445/filters:strip_icc()/pic1077906.jpg",
+    "name": "A Game of Thrones: The Board Game (Second Edition)",
+    "color": "hsla(353, 5%, 31%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/103343",
+    "asin": "1589947207",
+    "weight": 3.7152,
+    "minAge": 14,
+    "players": [
+      3,
+      6
+    ],
+    "playtime": [
+      120,
+      240
+    ],
+    "categories": [
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Auction/Bidding",
+      "Auction: Sealed Bid",
+      "Card Play Conflict Resolution",
+      "Hand Management",
+      "Books: A Song of Ice and Fire",
+      "Components: Map (Continental / National scale)",
+      "Game: A Game of Thrones – The Board Game"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/9gob752VqEklQFV_gz16hw__opengraph_left/img/EddNGmHOrb5NZxFuxHSbmp0BRfs=/fit-in/445x445/filters:strip_icc()/pic2585510.png",
+    "name": "Trickerion: Legends of Illusion",
+    "color": "hsla(41, 60%, 74%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/163068",
+    "asin": "B01ATG5ZK4",
+    "weight": 4.1979,
+    "minAge": 14,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      180
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Points",
+      "Action Queue",
+      "Catch the Leader",
+      "Dice Rolling",
+      "Simultaneous Action Selection",
+      "Tile Placement",
+      "Components: Dice with Icons",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Spieleschmiede",
+      "Game: Trickerion"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/gcALy45JfcjyKUn6T3mBIQ__opengraph_left/img/Nku7HxwPDPdIcIggkTe1LQadpu4=/fit-in/445x445/filters:strip_icc()/pic4422847.jpg",
+    "name": "Res Arcana",
+    "color": "hsla(0, 100%, 1%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/262712",
+    "asin": "B07PFRTSB2",
+    "weight": 2.604,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      20,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Hand Management",
+      "Race",
+      "Take That",
+      "Turn Order: Pass Order",
+      "Variable Player Powers",
+      "Admin: Better Description Needed!",
+      "Creatures: Dragons",
+      "Mechanism: Tableau Building"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/ZmXi5BbtoWl58ZnKcUy1vw__opengraph_left/img/Bq1VpP74680McUCn_uzkQkGdPDY=/fit-in/445x445/filters:strip_icc()/pic906495.jpg",
+    "name": "The Lord of the Rings: The Card Game",
+    "color": "hsla(0, 0%, 0%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/77423",
+    "asin": "1589949811",
+    "weight": 3.1707,
+    "minAge": 13,
+    "players": [
+      1,
+      2
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Customizable Games",
+      "Cooperative Game",
+      "Hand Management",
+      "Solo / Solitaire Game",
+      "Variable Player Powers",
+      "Authors: J.R.R. Tolkien",
+      "Collectible: Living Card Game (Fantasy Flight Games)",
+      "Game: The Lord of the Rings – The Card Game (LCG)",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/xkOTIpxwGQN4iyvbeqnytQ__opengraph_left/img/igtgtKlKrt43prSDp1DQRjDnUuU=/fit-in/445x445/filters:strip_icc()/pic1961827.jpg",
+    "name": "Castles of Mad King Ludwig",
+    "color": "hsla(120, 10%, 6%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/155426",
+    "asin": "B00NP7E05G",
+    "weight": 2.6525,
+    "minAge": 13,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      90,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "End Game Bonuses",
+      "I Cut, You Choose",
+      "Increase Value of Unchosen Resources",
+      "Pattern Building",
+      "Set Collection",
+      "Country: Germany",
+      "Crowdfunding: Wspieram",
+      "Game: Castles of Mad King Ludwig",
+      "Misc: Mensa Select",
+      "Players: Games with Solitaire Rules",
+      "Theme: Construction"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/YTJsoUosE9Hk-Ecb7DmANA__opengraph/img/8hXuNOQ6ghg9Bh4xYMhGPhiUhvE=/fit-in/1200x630/filters:strip_icc()/pic5582778.png",
+    "name": "That's Pretty Clever!",
+    "color": "hsla(218, 80%, 2%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/244522",
+    "asin": "B079MTNQ5C",
+    "weight": 1.8971,
+    "minAge": 8,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      30,
+      30
+    ],
+    "categories": [
+      "Family Games",
+      "Dice Rolling",
+      "Drafting",
+      "Paper-and-Pencil",
+      "Re-rolling and Locking",
+      "Solo / Solitaire Game",
+      "Mechanism: Dice Drafting",
+      "Mechanism: Roll-and-write",
+      "Players: Games with Solitaire Rules",
+      "Series: Klein & Fein (Schmidt Spiele)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/AuAheDzhkLufiZFE9JaRNA__opengraph_left/img/l1OOhd-MPG7HwNukc90U19HIvMk=/fit-in/445x445/filters:strip_icc()/pic4781085.jpg",
+    "name": "The Isle of Cats",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/281259",
+    "asin": "B085WC6GZG",
+    "weight": 2.3167,
+    "minAge": 8,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Family Games",
+      "Strategy Games",
+      "Card Drafting",
+      "Drafting",
+      "Grid Coverage",
+      "Hidden Victory Points",
+      "Income",
+      "Pattern Building",
+      "Animals: Cats",
+      "Components: Meeples (Animal) / Animeeples",
+      "Components: Polyominoes",
+      "Crowdfunding: Kickstarter",
+      "Game: The City of Kings",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/GifbnAmsA4lfEcDkeaC9VA__opengraph/img/s8bFcNqzPel3E2ryY7RCY-Db9W4=/fit-in/1200x630/filters:strip_icc()/pic4397932.png",
+    "name": "Cartographers",
+    "color": "hsla(212, 28%, 28%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/263918",
+    "asin": "B07PDNNLGR",
+    "weight": 1.9065,
+    "minAge": 10,
+    "players": [
+      1,
+      100
+    ],
+    "playtime": [
+      30,
+      45
+    ],
+    "categories": [
+      "Family Games",
+      "Bingo",
+      "Grid Coverage",
+      "Line Drawing",
+      "Paper-and-Pencil",
+      "Solo / Solitaire Game",
+      "Components: Map (Continental / National scale)",
+      "Components: Polyominoes",
+      "Mechanic: Flip-and-write",
+      "Mechanism: Roll-and-write",
+      "Players: Games with Solitaire Rules",
+      "Setting: World of Ulos"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/hLJv1A1TwrMrLLIJhVpKVA__opengraph_left/img/zBk9h5WKXJsm_HE49HZ_xP6uUoc=/fit-in/445x445/filters:strip_icc()/pic3429338.png",
+    "name": "Dinosaur Island",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/221194",
+    "asin": "B06Y3BS8YD",
+    "weight": 3.0271,
+    "minAge": 8,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      90,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Thematic Games",
+      "Action Points",
+      "Dice Rolling",
+      "Income",
+      "Set Collection",
+      "Tile Placement",
+      "Worker Placement",
+      "Animals: Dinosaurs",
+      "Components: Meeples (Dinosaur) / Dinomeeples",
+      "Crowdfunding: Kickstarter",
+      "Game: Dinosaur Island",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/_LTujSe_o16nvjDC-J0seA__opengraph/img/5_CYiyCYov1JYv2WdVU6VSuN4QE=/fit-in/1200x630/filters:strip_icc()/pic5100947.jpg",
+    "name": "Jaipur",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/54043",
+    "asin": "B002SAS26E",
+    "weight": 1.4935,
+    "minAge": 12,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      30,
+      30
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "Hand Management",
+      "Score-and-Reset Game",
+      "Set Collection",
+      "Animals: Camels",
+      "Country: India",
+      "Players: Two Player Only Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/MLvyN4VJ3QNXBKxli8XLiA__opengraph/img/7xbDUPItztoYnNMf0phEF0VUY4s=/fit-in/1200x630/filters:strip_icc()/pic5089618.jpg",
+    "name": "Ora et Labora",
+    "color": "hsla(0, 12%, 29%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/70149",
+    "asin": "B006EJ2KNQ",
+    "weight": 3.9085,
+    "minAge": 13,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      60,
+      180
+    ],
+    "categories": [
+      "Strategy Games",
+      "Increase Value of Unchosen Resources",
+      "Modular Board",
+      "Network and Route Building",
+      "Worker Placement",
+      "Worker Placement, Different Worker Types",
+      "Country: France",
+      "Country: Ireland",
+      "Food & Drink: Beer",
+      "Food & Drink: Wine",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/chfLNSL0l7afCA5go9pAtA__opengraph_left/img/UZUmTpbnN15MBhgsskppOt6DWEI=/fit-in/445x445/filters:strip_icc()/pic43663.jpg",
+    "name": "Memoir '44",
+    "color": "hsla(0, 100%, 1%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/10630",
+    "asin": "B0002TV2NS",
+    "weight": 2.2728,
+    "minAge": 8,
+    "players": [
+      2,
+      8
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Wargames",
+      "Area Majority / Influence",
+      "Campaign / Battle Card Driven",
+      "Command Cards",
+      "Dice Rolling",
+      "Die Icon Resolution",
+      "Grid Movement",
+      "Components: Miniatures",
+      "Game: Commands & Colors",
+      "Game: Memoir '44"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/1BMyuEwK0zV9005oYinYLw__opengraph_left/img/Y197XE65gdyWJaWSqBVNphLGGjE=/fit-in/445x445/filters:strip_icc()/pic4317519.jpg",
+    "name": "Chronicles of Crime",
+    "color": "hsla(240, 100%, 2%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/239188",
+    "asin": "B07CN8TJDQ",
+    "weight": 2.129,
+    "minAge": 14,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Thematic Games",
+      "Cooperative Game",
+      "Scenario / Mission / Campaign Game",
+      "Storytelling",
+      "Components: Digital Hybrid - App Required",
+      "Components: Official Music Soundtrack",
+      "Crowdfunding: Kickstarter",
+      "Game: Chronicles of Crime",
+      "Players: Games with Solitaire Rules",
+      "Theme: Mystery / Crime"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/XmwCsjQ3C1Ul53ZN2o8Q-Q__opengraph_left/img/H97iIMgB6XhPxkX-JIY7hgmamhM=/fit-in/445x445/filters:strip_icc()/pic2617634.png",
+    "name": "T.I.M.E Stories",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/146508",
+    "asin": "B013TRQLJO",
+    "weight": 2.6111,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      90,
+      90
+    ],
+    "categories": [
+      "Thematic Games",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Storytelling",
+      "Variable Player Powers",
+      "Game: T.I.M.E Stories / TIME Stories",
+      "Game: T.I.M.E Stories – White Cycle",
+      "Theme: Time Travel"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/3IkzYcplGfFtVrd3syClHg__opengraph/img/WlPer7lzKIzOZ1KDUzKi75nbfxo=/fit-in/1200x630/filters:strip_icc()/pic839090.jpg",
+    "name": "Hansa Teutonica",
+    "color": "hsla(213, 98%, 67%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/43015",
+    "asin": "B00PCOZ74I",
+    "weight": 3.1248,
+    "minAge": 12,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      45,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Points",
+      "Area Majority / Influence",
+      "End Game Bonuses",
+      "Network and Route Building",
+      "Ownership",
+      "Tech Trees / Tech Tracks",
+      "Components: Control Boards",
+      "Components: Map (Continental / National scale)",
+      "Country: Germany",
+      "Theme: Hanseatic League"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/qcASDsV-0eNBVipfPhxs7A__opengraph/img/WAxO0tC-MDtOS1uOLPPFu9tg0iE=/fit-in/1200x630/filters:strip_icc()/pic132447.jpg",
+    "name": "Commands & Colors: Ancients",
+    "color": "hsla(36, 27%, 76%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/14105",
+    "asin": "B002ENNQQQ",
+    "weight": 2.6948,
+    "minAge": 12,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Wargames",
+      "Campaign / Battle Card Driven",
+      "Command Cards",
+      "Dice Rolling",
+      "Hand Management",
+      "Hexagon Grid",
+      "Modular Board",
+      "Ancient: Rome",
+      "Country: Greece",
+      "Game: Commands & Colors",
+      "Game: Commands & Colors Ancients",
+      "History: Punic Wars",
+      "History: Sicilian Wars"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__opengraph_left/img/X2eUZqVOcgOMibVZiI_sNSAGQQ8=/fit-in/445x445/filters:strip_icc()/pic1521633.jpg",
+    "name": "Cosmic Encounter",
+    "color": "hsla(240, 21%, 11%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/39463",
+    "asin": "1589944968",
+    "weight": 2.5714,
+    "minAge": 12,
+    "players": [
+      3,
+      5
+    ],
+    "playtime": [
+      60,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Thematic Games",
+      "Alliances",
+      "Card Play Conflict Resolution",
+      "Hand Management",
+      "Negotiation",
+      "Prisoner's Dilemma",
+      "Race",
+      "Creatures: Aliens / Extraterrestrials",
+      "Game: Cosmic Encounter"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/nivt-U3CT7dHYWIjg5IB0g__opengraph_left/img/vk-9uTbV9zCrabZR46l5w7Cx6gQ=/fit-in/445x445/filters:strip_icc()/pic1418335.jpg",
+    "name": "Suburbia",
+    "color": "hsla(208, 68%, 96%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/123260",
+    "asin": "B007GC7AJ4",
+    "weight": 2.7737,
+    "minAge": 8,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      90,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction: Dutch",
+      "Card Drafting",
+      "Catch the Leader",
+      "Hexagon Grid",
+      "Set Collection",
+      "Tile Placement",
+      "Game: Suburbia",
+      "Misc: Mensa Select",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/H2st1bZH4O0FM46NhKMqyQ__opengraph/img/DKhBpETl-PIXRU_9ea0dJqXyoxU=/fit-in/1200x630/filters:strip_icc()/pic3430893.jpg",
+    "name": "Aeon's End: War Eternal",
+    "color": "hsla(31, 29%, 27%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/218417",
+    "asin": "B06XDWP5BP",
+    "weight": 2.8816,
+    "minAge": 14,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Variable Phase Order",
+      "Variable Player Powers",
+      "Crowdfunding: Kickstarter",
+      "Game: Aeon's End",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/PZt3EAAGV3dFIVuwMR0AEw__opengraph/img/7AYd7lFITzynnlezHXc-579tIcU=/fit-in/1200x630/filters:strip_icc()/pic3525224.jpg",
+    "name": "Sagrada",
+    "color": "hsla(180, 1%, 69%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/199561",
+    "asin": "B01MTG2QY2",
+    "weight": 1.9296,
+    "minAge": 14,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      30,
+      45
+    ],
+    "categories": [
+      "Abstract Games",
+      "Family Games",
+      "Contracts",
+      "Dice Rolling",
+      "Drafting",
+      "Pattern Building",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Cities: Barcelona (Spain)",
+      "Crowdfunding: Kickstarter",
+      "Game: Sagrada",
+      "Mechanism: Dice Drafting",
+      "Organizations: The Game Artisans of Canada",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/gQOQW7p1RWHzY54Lrs-_pA__opengraph_left/img/TFU9oggZdygT2yOVpIW-Nj6-0GE=/fit-in/445x445/filters:strip_icc()/pic3315915.jpg",
+    "name": "This War of Mine: The Board Game",
+    "color": "hsla(210, 9%, 13%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/188920",
+    "asin": "B071ZTQVYV",
+    "weight": 3.2525,
+    "minAge": 18,
+    "players": [
+      1,
+      6
+    ],
+    "playtime": [
+      45,
+      120
+    ],
+    "categories": [
+      "Thematic Games",
+      "Action Points",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Grid Movement",
+      "Push Your Luck",
+      "Role Playing",
+      "Crowdfunding: Kickstarter",
+      "Game: This War of Mine (Awaken Realms)",
+      "Players: Games with Solitaire Rules",
+      "Theme: Survival"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/6uEBiPxMH8gfGJ6f3HLNGg__opengraph_letterbox/img/6Yc1dJhdYEfBc2-Z2GEKmRrmC5s=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic1807124.png",
+    "name": "Xia: Legends of a Drift System",
+    "color": "hsla(233, 13%, 39%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/82222",
+    "asin": "B00G4JMMTS",
+    "weight": 3.1645,
+    "minAge": 12,
+    "players": [
+      3,
+      5
+    ],
+    "playtime": [
+      60,
+      180
+    ],
+    "categories": [
+      "Strategy Games",
+      "Thematic Games",
+      "Action Points",
+      "Dice Rolling",
+      "Grid Movement",
+      "Map Addition",
+      "Modular Board",
+      "Pick-up and Deliver",
+      "Components: Map (Interplanetary or Interstellar scale)",
+      "Components: Miniatures",
+      "Components: Polyhedral (not D6) dice",
+      "Components: Polyominoes",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Verkami"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/-hn7gA50ci0n7j9u_-jHhA__opengraph_letterbox/img/WEOXNYQoz369VWcumYpQSRheWl4=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic1591406.png",
+    "name": "Nations",
+    "color": "hsla(167, 6%, 50%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/126042",
+    "asin": "B00GFLDWRQ",
+    "weight": 3.5357,
+    "minAge": 14,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      40,
+      200
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Events",
+      "Turn Order: Pass Order",
+      "Variable Player Powers",
+      "Worker Placement",
+      "Game: Nations",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/wJphcoCCYScWCNkE32D_hw__opengraph_left/img/Z7qfXkugDjA72OmbnDWWxV8x0oM=/fit-in/445x445/filters:strip_icc()/pic5756205.jpg",
+    "name": "Detective: A Modern Crime Board Game",
+    "color": "hsla(255, 18%, 4%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/223321",
+    "asin": "B079THKB17",
+    "weight": 2.7211,
+    "minAge": 16,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      120,
+      180
+    ],
+    "categories": [
+      "Thematic Games",
+      "Cooperative Game",
+      "Solo / Solitaire Game",
+      "Storytelling",
+      "Components: Digital Hybrid - App Required",
+      "Game: Detective – A Modern Crime Board Game (Portal Games)",
+      "Mechanism: Campaign Games",
+      "Players: Games with Solitaire Rules",
+      "Theme: Mystery / Crime"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/Ip4TygnwFxuR57Vky9ZeZA__opengraph/img/MXFYDRqdvKdapZJjzFtD-7Wqi88=/fit-in/1200x630/filters:strip_icc()/pic4490515.jpg",
+    "name": "Paths of Glory",
+    "color": "hsla(334, 11%, 13%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/91",
+    "asin": "B00UKJIEBI",
+    "weight": 3.8389,
+    "minAge": 14,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      480,
+      480
+    ],
+    "categories": [
+      "Wargames",
+      "Campaign / Battle Card Driven",
+      "Dice Rolling",
+      "Point to Point Movement",
+      "Continents: Europe",
+      "Players: Two Player Only Games",
+      "Region: Middle East"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/uKaL10FK-u9wfYyK6MQaNg__opengraph/img/zyh9pFPoGkvvwX_F8JIMupTFvpU=/fit-in/1200x630/filters:strip_icc()/pic992459.jpg",
+    "name": "Combat Commander: Europe",
+    "color": "hsla(0, 0%, 0%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/21050",
+    "asin": "B00I8NPIIU",
+    "weight": 3.2442,
+    "minAge": 12,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      60,
+      180
+    ],
+    "categories": [
+      "Wargames",
+      "Campaign / Battle Card Driven",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Simulation",
+      "Variable Phase Order",
+      "Players: Two Player Only Games",
+      "Series: Combat Commander"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/lm8OOgJupqd3Q-fZ3DsQhw__opengraph_left/img/tD8fxiO5QupH1U-8d8qDkQbU8rk=/fit-in/445x445/filters:strip_icc()/pic3605785.jpg",
+    "name": "Near and Far",
+    "color": "hsla(24, 26%, 25%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/195421",
+    "asin": "B072FKL58X",
+    "weight": 2.8151,
+    "minAge": 13,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      90,
+      120
+    ],
+    "categories": [
+      "Thematic Games",
+      "Card Drafting",
+      "Dice Rolling",
+      "Narrative Choice / Paragraph",
+      "Network and Route Building",
+      "Scenario / Mission / Campaign Game",
+      "Set Collection",
+      "Components: Book as Board",
+      "Crowdfunding: Kickstarter",
+      "Mechanism: Campaign Games",
+      "Setting: World of Arzium"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/eVy9IyAVtzzKv2VvPHFPbA__opengraph_left/img/OC6NkTWgMA6Xu956CIeI1Yy_tDg=/fit-in/445x445/filters:strip_icc()/pic3013621.png",
+    "name": "Captain Sonar",
+    "color": "hsla(0, 0%, 20%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/171131",
+    "asin": "B01EZUCHOC",
+    "weight": 2.1345,
+    "minAge": 14,
+    "players": [
+      2,
+      8
+    ],
+    "playtime": [
+      45,
+      60
+    ],
+    "categories": [
+      "Party Games",
+      "Thematic Games",
+      "Grid Movement",
+      "Hidden Movement",
+      "Line Drawing",
+      "Real-Time",
+      "Role Playing",
+      "Secret Unit Deployment",
+      "Game: Captain Sonar",
+      "Mechanism: Hidden Movement",
+      "Theme: Submarines"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/5FBIAvZi3Sw8dvmfwwJTjg__opengraph_left/img/pW4hqasbq1dTDhBUkfUlFYyG8Tk=/fit-in/445x445/filters:strip_icc()/pic2760568.jpg",
+    "name": "Village",
+    "color": "hsla(47, 24%, 19%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/104006",
+    "asin": "B01BL7T5RY",
+    "weight": 3.071,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Drafting",
+      "Area Majority / Influence",
+      "Contracts",
+      "Set Collection",
+      "Turn Order: Claim Action",
+      "Worker Placement",
+      "Game: Village"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/uiLW4kCvt86Tz2woZmIN5g__opengraph_left/img/IH5kjh1xcaox1rqDedWWW6ojSJY=/fit-in/445x445/filters:strip_icc()/pic369616.jpg",
+    "name": "Ticket to Ride: Nordic Countries",
+    "color": "hsla(177, 34%, 76%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/31627",
+    "asin": "B001E9641K",
+    "weight": 1.9783,
+    "minAge": 8,
+    "players": [
+      2,
+      3
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "Hand Management",
+      "Network and Route Building",
+      "Set Collection",
+      "Cities: Copenhagen (Denmark)",
+      "Cities: Stockholm (Sweden)",
+      "Components: Map (Continental / National scale)",
+      "Country: Denmark",
+      "Country: Finland",
+      "Country: Norway"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/0d1EaMVmAiIBROI2QstFSQ__opengraph/img/zqm2pMqhBDD8Ze-kfInzXyyMED4=/fit-in/1200x630/filters:strip_icc()/pic3596681.jpg",
+    "name": "Codenames: Duet",
+    "color": "hsla(0, 0%, 0%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/224037",
+    "asin": "B072J234ZF",
+    "weight": 1.3376,
+    "minAge": 11,
+    "players": [
+      2,
+      99
+    ],
+    "playtime": [
+      15,
+      30
+    ],
+    "categories": [
+      "Family Games",
+      "Communication Limits",
+      "Cooperative Game",
+      "Push Your Luck",
+      "Team-Based Game",
+      "Game: Codenames",
+      "Versions & Editions: Two-Player Versions of More-Player Games",
+      "Word Games: Guess the Word"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/CxJmNl4wR4InjqyNrMdBTw__opengraph/img/3vszhyAHMp-mAHpIYGNViueHYtY=/fit-in/1200x630/filters:strip_icc()/pic163749.jpg",
+    "name": "Magic: The Gathering",
+    "color": "hsla(14, 44%, 48%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/463",
+    "asin": "B073RZG1XZ",
+    "weight": 3.2115,
+    "minAge": 13,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      20,
+      20
+    ],
+    "categories": [
+      "Customizable Games",
+      "Deck Construction",
+      "Hand Management",
+      "Interrupts",
+      "Take That",
+      "Admin: Game System Entries",
+      "Collectible: Collectible Card Games",
+      "Game: Magic The Gathering",
+      "Misc: Mensa Select",
+      "Players: Two Player Only Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/eMJAona-uXwh6t2AcugGEg__opengraph/img/Sn5GJO_U4rWfPUxtINHzINgMSEM=/fit-in/1200x630/filters:strip_icc()/pic1063508.jpg",
+    "name": "Sekigahara: The Unification of Japan",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/25021",
+    "asin": "B0073KK8SY",
+    "weight": 2.7632,
+    "minAge": 14,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      180,
+      180
+    ],
+    "categories": [
+      "Wargames",
+      "Action Points",
+      "Card Play Conflict Resolution",
+      "Force Commitment",
+      "Hand Management",
+      "Point to Point Movement",
+      "Secret Unit Deployment",
+      "Components: Block Wargames",
+      "Components: Multi-Use Cards",
+      "Country: Japan",
+      "History: Sengoku Period",
+      "Players: Two Player Only Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/665Ply7Ho1WVf1v1iZlWeg__opengraph_left/img/oFEhWfKxIkPlhMcAt65Cl6pvxWQ=/fit-in/445x445/filters:strip_icc()/pic3283110.png",
+    "name": "Santorini",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/194655",
+    "asin": "B01MR7O8ER",
+    "weight": 1.7343,
+    "minAge": 8,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      20,
+      20
+    ],
+    "categories": [
+      "Abstract Games",
+      "Family Games",
+      "Race",
+      "Square Grid",
+      "Team-Based Game",
+      "Three Dimensional Movement",
+      "Variable Player Powers",
+      "Category: Combinatorial",
+      "Components: 3-Dimensional (3D)",
+      "Components: 5 x 5 Grids",
+      "Country: Greece",
+      "Crowdfunding: Kickstarter",
+      "Game: Santorini"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/FKEjArvFzBTpPJRvU34t8A__opengraph/img/8sjhdepxEUEGFaVHgCQhG-Aw-mI=/fit-in/1200x630/filters:strip_icc()/pic4324043.jpg",
+    "name": "Star Realms: Colony Wars",
+    "color": "hsla(0, 0%, 0%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/182631",
+    "asin": "B016QB4E3A",
+    "weight": 1.9032,
+    "minAge": 12,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      20,
+      20
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Take That",
+      "Game: Star Realms",
+      "Players: Two Player Only Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/hR5sxxqNY3gjvLwifaqRww__opengraph_left/img/rTWbeYO4zgzvYx_v3H9cokhObwQ=/fit-in/445x445/filters:strip_icc()/pic3646165.jpg",
+    "name": "Rajas of the Ganges",
+    "color": "hsla(204, 100%, 34%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/220877",
+    "asin": "B073JPCZKZ",
+    "weight": 2.8583,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      45,
+      75
+    ],
+    "categories": [
+      "Strategy Games",
+      "Connections",
+      "Dice Rolling",
+      "Network and Route Building",
+      "Tile Placement",
+      "Worker Placement",
+      "Country: India",
+      "Game: Rajas of the Ganges"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/rwOMxx4q5yuElIvo-1-OFw__opengraph/img/lxCt2Df9465sz3ufOWlGxrA2iJ8=/fit-in/1200x630/filters:strip_icc()/pic1904079.jpg",
+    "name": "Splendor",
+    "color": "hsla(217, 16%, 16%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/148228",
+    "asin": "B00IZEUFIA",
+    "weight": 1.7998,
+    "minAge": 10,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      30,
+      30
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "Contracts",
+      "Set Collection",
+      "Game: Splendor",
+      "Mechanism: Tableau Building"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/qKcKjHpzAvLddwBhyindag__opengraph/img/s9AS4X8TawpyPVafmWR5cAPLHH0=/fit-in/1200x630/filters:strip_icc()/pic4268499.jpg",
+    "name": "Just One",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/254640",
+    "asin": "B07W3PJTL2",
+    "weight": 1.0591,
+    "minAge": 8,
+    "players": [
+      3,
+      7
+    ],
+    "playtime": [
+      20,
+      20
+    ],
+    "categories": [
+      "Party Games",
+      "Communication Limits",
+      "Cooperative Game",
+      "Components: Dry Erase Markers / Dry Erase Surfaces",
+      "Mechanism: Give a Clue / Get a Clue",
+      "Word Games: Guess the Word"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/ufUK_7N_13rYhsIurbbtzg__opengraph/img/UAnCgfgRRVTc1J9cbL8mjSKzNRw=/fit-in/1200x630/filters:strip_icc()/pic2031777.jpg",
+    "name": "La Granja",
+    "color": "hsla(55, 59%, 63%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/146886",
+    "asin": "B00YCLV2R8",
+    "weight": 3.5852,
+    "minAge": 12,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      90,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Automatic Resource Growth",
+      "Dice Rolling",
+      "Drafting",
+      "Hand Management",
+      "Income",
+      "Admin: Better Description Needed!",
+      "Components: Multi-Use Cards",
+      "Country: Spain",
+      "Game: La Granja",
+      "Islands: Mallorca (Spain)",
+      "Mechanism: Dice Drafting"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/gz8_8iYP2SSGVAxpp7CwLg__opengraph/img/Wj0Wt8pC_P5idQ3JXNI3-W3rHa8=/fit-in/1200x630/filters:strip_icc()/pic5854968.png",
+    "name": "Tichu",
+    "color": "hsla(10, 86%, 48%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/215",
+    "asin": "B0002HY124",
+    "weight": 2.3451,
+    "minAge": 10,
+    "players": [
+      4,
+      4
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "Hand Management",
+      "Ladder Climbing",
+      "Team-Based Game",
+      "Trick-taking",
+      "Card Games: Climbing",
+      "Card Games: Outplay",
+      "Card Games: Shedding / Stops",
+      "Components: Traditional Playing Cards",
+      "Series: Deluxe card game (Z-Man / Filosofia)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__opengraph_left/img/nGsrahCz5l0HHwJ2FQE1w-bUAgM=/fit-in/445x445/filters:strip_icc()/pic4930887.jpg",
+    "name": "Azul: Summer Pavilion",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/287954",
+    "asin": "B07XPSBCPD",
+    "weight": 2.0342,
+    "minAge": 8,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      30,
+      45
+    ],
+    "categories": [
+      "Family Games",
+      "Pattern Building",
+      "Set Collection",
+      "Game: Azul",
+      "Theme: Art"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/mF2cSNRk2O6HtE45Sl9TcA__opengraph_left/img/fkttVEb7xw3MfJcY_HwTEwafxPw=/fit-in/445x445/filters:strip_icc()/pic4852372.jpg",
+    "name": "PARKS",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/266524",
+    "asin": "B07SVNZXY4",
+    "weight": 2.1648,
+    "minAge": 10,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      40,
+      70
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "Contracts",
+      "Modular Board",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Track Movement",
+      "Components: Game Trayz Inside",
+      "Components: Meeples (Animal) / Animeeples",
+      "Country: USA",
+      "Crowdfunding: Kickstarter",
+      "Players: Games with Solitaire Rules",
+      "Series: PARKS"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/6qAiZwWxSSKP2kFcA80cZg__opengraph_letterbox/img/3G6D_ZRE3P6YMBOYZ5nmmi-Zvpg=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic1728832.jpg",
+    "name": "Go",
+    "color": "hsla(39, 21%, 52%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/188",
+    "asin": "B00000IZPL",
+    "weight": 4.0014,
+    "minAge": 8,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      30,
+      180
+    ],
+    "categories": [
+      "Abstract Games",
+      "Enclosure",
+      "Square Grid",
+      "Category: Combinatorial",
+      "Players: Two Player Only Games",
+      "Series: 3M Bookshelf Series",
+      "Series: Traveller (Ravensburger)",
+      "Traditional Games: Go"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/IGH076JpcXRnqkO4bpcXrg__opengraph_left/img/pcIVRgt_1ufv5LUfRqhVBl6PHkY=/fit-in/445x445/filters:strip_icc()/pic3617168.jpg",
+    "name": "The Quest for El Dorado",
+    "color": "hsla(206, 99%, 32%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/217372",
+    "asin": "B072QFFR2M",
+    "weight": 1.9251,
+    "minAge": 10,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Grid Movement",
+      "Hand Management",
+      "Modular Board",
+      "Race",
+      "Game: The Quest for El Dorado",
+      "Theme: Tropical"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/JJFHx0RiUBYdy9bHAgVSuA__opengraph_left/img/WJZTUzcciU0THGbrMXxcIpxKLBc=/fit-in/445x445/filters:strip_icc()/pic3956079.jpg",
+    "name": "Coimbra",
+    "color": "hsla(156, 41%, 68%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/245638",
+    "asin": "B07FYT24JS",
+    "weight": 3.2785,
+    "minAge": 14,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Dice Rolling",
+      "End Game Bonuses",
+      "Set Collection",
+      "Worker Placement with Dice Workers",
+      "Components: Map (Continental / National scale)",
+      "Country: Portugal",
+      "History: Age of Discovery",
+      "Mechanism: Dice Drafting"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__opengraph_left/img/VZeQDxiS3W0JHnTtHJVbGPB2cg4=/fit-in/445x445/filters:strip_icc()/pic38668.jpg",
+    "name": "Ticket to Ride",
+    "color": "hsla(37, 31%, 95%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/9209",
+    "asin": "0975277324",
+    "weight": 1.8498,
+    "minAge": 8,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "Connections",
+      "End Game Bonuses",
+      "Hand Management",
+      "Map Reduction",
+      "Network and Route Building",
+      "Components: Map (Continental / National scale)",
+      "Continents: North America",
+      "Country: USA",
+      "Game: Ticket to Ride"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/ZrRidumkzu62HuwKdgQpHA__opengraph_left/img/trekw0g5momGDOAA_kNN_ftEhc4=/fit-in/445x445/filters:strip_icc()/pic1430769.jpg",
+    "name": "Legendary: A Marvel Deck Building Game",
+    "color": "hsla(0, 0%, 0%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/129437",
+    "asin": "B00A4KHEK0",
+    "weight": 2.4396,
+    "minAge": 14,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Thematic Games",
+      "Deck, Bag, and Pool Building",
+      "Events",
+      "Semi-Cooperative Game",
+      "Solo / Solitaire Game",
+      "Variable Set-up",
+      "Comic Books: Marvel Universe",
+      "Game: Legendary (Upper Deck Entertainment)",
+      "Players: Games with Solitaire Rules",
+      "Theme: Superheroes"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/8qyLCqvdZkSpT2lEbwVpeg__opengraph_left/img/EXtszt2WV4SVxTL5Xtvs7ppC-NA=/fit-in/445x445/filters:strip_icc()/pic2305263.jpg",
+    "name": "Arcadia Quest",
+    "color": "hsla(189, 28%, 19%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/155068",
+    "asin": "B00OZTG1F0",
+    "weight": 2.5316,
+    "minAge": 13,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Thematic Games",
+      "Dice Rolling",
+      "Grid Movement",
+      "Modular Board",
+      "Take That",
+      "Variable Player Powers",
+      "Category: Dungeon Crawler",
+      "Components: Miniatures",
+      "Crowdfunding: Kickstarter",
+      "Game: Arcadia Quest",
+      "Mechanism: Campaign Games",
+      "Theme: Anime / Manga"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/kVHuMBxmathfnq42XINBQg__opengraph_left/img/iq3mb9gDrUJLvKRafXWtC0mYT1g=/fit-in/445x445/filters:strip_icc()/pic2482309.jpg",
+    "name": "Zombicide: Black Plague",
+    "color": "hsla(0, 100%, 5%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/176189",
+    "asin": "B011MIVWV4",
+    "weight": 2.5137,
+    "minAge": 14,
+    "players": [
+      1,
+      6
+    ],
+    "playtime": [
+      60,
+      180
+    ],
+    "categories": [
+      "Thematic Games",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Modular Board",
+      "Variable Player Powers",
+      "Category: Dungeon Crawler",
+      "Components: Miniatures",
+      "Creatures: Zombies",
+      "Crowdfunding: Kickstarter",
+      "Game: Zombicide",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/9sbSKcc-Fm8Od5wwuf3kgg__opengraph/img/eIng_0L64L16k_teWg3DgjL7cK0=/fit-in/1200x630/filters:strip_icc()/pic1215969.jpg",
+    "name": "Goa",
+    "color": "hsla(0, 0%, 7%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/9216",
+    "asin": "B0085JR65K",
+    "weight": 3.3764,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      90,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction/Bidding",
+      "Auction: Once Around",
+      "Hand Management",
+      "Push Your Luck",
+      "Tech Trees / Tech Tracks",
+      "Components: Multi-Use Cards",
+      "Country: India",
+      "Country: Portugal",
+      "Theme: Colonial"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/rzSmS-GD8_pGl9bWo07FWQ__opengraph_left/img/oaq9OJR_8yagJ-7RwHKuFyKcl9Y=/fit-in/445x445/filters:strip_icc()/pic5638431.jpg",
+    "name": "Kanban: Driver's Edition",
+    "color": "hsla(45, 79%, 55%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/109276",
+    "asin": "B00OMXW2MU",
+    "weight": 4.3558,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      90,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Points",
+      "Commodity Speculation",
+      "Variable Phase Order",
+      "Worker Placement",
+      "Crowdfunding: Giochistarter",
+      "Series: The Great Designers (Stronghold Games)",
+      "Theme: Automotive Industry"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/1m3z3iX0iVtII8AEMuWOeA__opengraph_left/img/V16cQJC_rjeyjtBrUtZmtFTU0fw=/fit-in/445x445/filters:strip_icc()/pic3013552.jpg",
+    "name": "Ra",
+    "color": "hsla(34, 24%, 68%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/12",
+    "asin": "B01D6MIPAK",
+    "weight": 2.3489,
+    "minAge": 12,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      45,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction/Bidding",
+      "Auction: Once Around",
+      "Closed Economy Auction",
+      "Constrained Bidding",
+      "Push Your Luck",
+      "Set Collection",
+      "Country: Egypt",
+      "Game: Ra",
+      "Mythology: Egyptian",
+      "Series: Alea Big Box",
+      "Series: Euro Classics (Reiner Knizia)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/Z3upN53-fsVPUDimN9SpOA__opengraph/img/gDkYLnKK5x5mT7uRqt65YuAgFA4=/fit-in/1200x630/filters:strip_icc()/pic2337577.jpg",
+    "name": "Carcassonne",
+    "color": "hsla(206, 60%, 66%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/822",
+    "asin": "B00NX627HW",
+    "weight": 1.9136,
+    "minAge": 7,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      30,
+      45
+    ],
+    "categories": [
+      "Family Games",
+      "Area Majority / Influence",
+      "Map Addition",
+      "Tile Placement",
+      "Cities: Carcassonne (France)",
+      "Components: Meeples (Black)",
+      "Components: Meeples (Blue)",
+      "Components: Meeples (Green)",
+      "Components: Meeples (Red)",
+      "Components: Meeples (Yellow)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/yshiqrUPxndthguBgp3NKw__opengraph_letterbox/img/qNbHzAt3zqiOBujenWe4mdCyhu0=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic1306997.jpg",
+    "name": "The Princes of Florence",
+    "color": "hsla(30, 47%, 30%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/555",
+    "asin": "B0007YDBLY",
+    "weight": 3.2503,
+    "minAge": 12,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      75,
+      100
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction/Bidding",
+      "Grid Coverage",
+      "Tile Placement",
+      "Cities: Florence (Tuscany, Italy)",
+      "Components: Polyominoes",
+      "Country: Italy",
+      "Region: Tuscany (Italy)",
+      "Series: Alea Big Box"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/6QbaJOS8acWkJ6gSYI0KaQ__opengraph_letterbox/img/dO6pjhCQfWf-SlkhW9X4TmTpEG0=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic584779.jpg",
+    "name": "Cyclades",
+    "color": "hsla(220, 6%, 46%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/54998",
+    "asin": "B002SAMB1Q",
+    "weight": 2.8255,
+    "minAge": 13,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Auction/Bidding",
+      "Auction: Fixed Placement",
+      "Card Drafting",
+      "Dice Rolling",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Country: Greece",
+      "Creatures: Minotaurs",
+      "Game: Cyclades",
+      "Islands: Cyclades (Greece)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/IB38fOp0mTvFuvfdHczf0Q__opengraph_letterbox/img/HRTacmyl7Q-pItR9FKS4Xdk5HBg=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic392515.jpg",
+    "name": "Steam",
+    "color": "hsla(283, 12%, 47%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/27833",
+    "asin": "B002B54VAM",
+    "weight": 3.4564,
+    "minAge": 10,
+    "players": [
+      3,
+      5
+    ],
+    "playtime": [
+      90,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction/Bidding",
+      "Loans",
+      "Network and Route Building",
+      "Ownership",
+      "Pick-up and Deliver",
+      "Tile Placement",
+      "Components: Map (Continental / National scale)",
+      "Game: Steam"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/rAQ3hIXoH6xDcj41v9iqCg__opengraph_letterbox/img/mmVF2DKlRDrF7pPB7qS2BAqkkNk=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic5164305.jpg",
+    "name": "Secret Hitler",
+    "color": "hsla(12, 51%, 61%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/188834",
+    "asin": "B01JKD4HYC",
+    "weight": 1.6906,
+    "minAge": 13,
+    "players": [
+      5,
+      10
+    ],
+    "playtime": [
+      45,
+      45
+    ],
+    "categories": [
+      "Party Games",
+      "Hidden Roles",
+      "Player Elimination",
+      "Team-Based Game",
+      "Traitor Game",
+      "Voting",
+      "Crowdfunding: Kickstarter",
+      "Game: Werewolf / Mafia"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/WrnWFA1Sysm3-nQyBe1sUA__opengraph_letterbox/img/3iCppWTg2HXd_tKnLmbFAjQHPYU=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic2619743.jpg",
+    "name": "Viticulture",
+    "color": "hsla(42, 13%, 49%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/128621",
+    "asin": "B018GRSLK4",
+    "weight": 2.9332,
+    "minAge": 13,
+    "players": [
+      2,
+      6
+    ],
+    "playtime": [
+      90,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Hand Management",
+      "Turn Order: Progressive",
+      "Worker Placement",
+      "Crowdfunding: Kickstarter",
+      "Food & Drink: Wine",
+      "Game: Viticulture"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/a9Dco_g83IUWxrpxsw8ibw__opengraph_left/img/or7SnjM5iv1ioaIllUperAraLIM=/fit-in/445x445/filters:strip_icc()/pic2844830.png",
+    "name": "YINSH",
+    "color": "hsla(210, 15%, 82%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/7854",
+    "asin": "B0007YDBSC",
+    "weight": 2.7063,
+    "minAge": 9,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Abstract Games",
+      "Grid Movement",
+      "Pattern Building",
+      "Category: Combinatorial",
+      "Misc: Mensa Select",
+      "Players: Two Player Only Games",
+      "Series: GIPF Project"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/gLFt1Kif5Cfag505_COYYw__opengraph/img/_RmgylCHR4AMj7WPBvdXP_tKPzc=/fit-in/1200x630/filters:strip_icc()/pic3926631.jpg",
+    "name": "Galaxy Trucker",
+    "color": "hsla(0, 0%, 0%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/31481",
+    "asin": "B000XLU8H6",
+    "weight": 2.3259,
+    "minAge": 10,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Thematic Games",
+      "Dice Rolling",
+      "Events",
+      "Real-Time",
+      "Relative Movement",
+      "Team-Based Game",
+      "Tile Placement",
+      "Theme: Trucks"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/jvYmb5EFnoXyiCB68gbybg__opengraph/img/4PxND1CnivYXc2rHLf8UsbBzNEw=/fit-in/1200x630/filters:strip_icc()/pic3031286.jpg",
+    "name": "Sushi Go Party!",
+    "color": "hsla(216, 71%, 1%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/192291",
+    "asin": "B01CETNKE2",
+    "weight": 1.3242,
+    "minAge": 8,
+    "players": [
+      2,
+      8
+    ],
+    "playtime": [
+      20,
+      20
+    ],
+    "categories": [
+      "Family Games",
+      "Card Drafting",
+      "End Game Bonuses",
+      "Hand Management",
+      "Set Collection",
+      "Simultaneous Action Selection",
+      "Food & Drink: Sushi",
+      "Game: Sushi Go!",
+      "Theme: Food / Cooking"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/j6UzppDoJv9tKHQl-pWpIw__opengraph/img/dvsCJMEkOUeC7rBC08IO889ZEt4=/fit-in/1200x630/filters:strip_icc()/pic3336315.jpg",
+    "name": "Shogun",
+    "color": "hsla(23, 77%, 55%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/20551",
+    "asin": "B01BWYQSZS",
+    "weight": 3.374,
+    "minAge": 12,
+    "players": [
+      3,
+      5
+    ],
+    "playtime": [
+      90,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Queue",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Auction/Bidding",
+      "Cube Tower",
+      "Simultaneous Action Selection",
+      "Components: Drop Tower",
+      "Components: Map (Continental / National scale)",
+      "Country: Japan",
+      "History: Sengoku Period",
+      "Theme: Samurai"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/1COY3oeK9aN2_XNimKaNww__opengraph_left/img/eSkRLDIwk9lsnZA9EtxCXzDazAQ=/fit-in/445x445/filters:strip_icc()/pic3033330.jpg",
+    "name": "Deception: Murder in Hong Kong",
+    "color": "hsla(313, 16%, 11%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/156129",
+    "asin": "B019FPQZNG",
+    "weight": 1.5907,
+    "minAge": 14,
+    "players": [
+      4,
+      12
+    ],
+    "playtime": [
+      20,
+      20
+    ],
+    "categories": [
+      "Party Games",
+      "Deduction",
+      "Events",
+      "Hidden Roles",
+      "Storytelling",
+      "Team-Based Game",
+      "Traitor Game",
+      "Country: Hong Kong",
+      "Crowdfunding: Kickstarter",
+      "Game: Deception – Murder in Hong Kong",
+      "Mechanism: Drawing",
+      "Mechanism: Give a Clue / Get a Clue"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/F58jczp5xk9CYFimrytXaw__opengraph_letterbox/img/dRWd9WcREaznovkYtObkwyjlh44=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic2801874.jpg",
+    "name": "Tyrants of the Underdark",
+    "color": "hsla(211, 19%, 39%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/189932",
+    "asin": "1940825857",
+    "weight": 2.5669,
+    "minAge": 14,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Deck, Bag, and Pool Building",
+      "Components: Miniatures",
+      "Setting: Dungeons & Dragons"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/3EmD1SEI5fVpR4rbdkU0AA__opengraph_left/img/OOVSV7z3kGAM4C5y3zSlF9O8kz4=/fit-in/445x445/filters:strip_icc()/pic882119.jpg",
+    "name": "1830: Railways & Robber Barons",
+    "color": "hsla(210, 75%, 38%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/421",
+    "asin": "B004ZJY8Q4",
+    "weight": 4.1648,
+    "minAge": 14,
+    "players": [
+      2,
+      7
+    ],
+    "playtime": [
+      180,
+      360
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction/Bidding",
+      "Investment",
+      "Market",
+      "Network and Route Building",
+      "Ownership",
+      "Stock Holding",
+      "Components: Map (Continental / National scale)",
+      "Country: USA",
+      "Series: 18xx"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/GCxsnITFBO1pNXiBYkq_qA__opengraph/img/Ue1sa2LPvZus0CSRFz5ic3kcAuM=/fit-in/1200x630/filters:strip_icc()/pic2524838.jpg",
+    "name": "Isle of Skye: From Chieftain to King",
+    "color": "hsla(196, 47%, 43%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/176494",
+    "asin": "B012HND8S8",
+    "weight": 2.2417,
+    "minAge": 8,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      30,
+      50
+    ],
+    "categories": [
+      "Family Games",
+      "Strategy Games",
+      "Auction/Bidding",
+      "Catch the Leader",
+      "Set Collection",
+      "Tile Placement",
+      "Turn Order: Progressive",
+      "Country: Scotland",
+      "Game: Isle of Skye (Lookout Games)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/enmQAOQl99U6wiQvZoL5GQ__opengraph/img/f6PJks6h4Tu-PK7fkjwXEVK4Bkc=/fit-in/1200x630/filters:strip_icc()/pic2556921.jpg",
+    "name": "Roll Player",
+    "color": "hsla(0, 0%, 0%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/169426",
+    "asin": "B01E9539HM",
+    "weight": 2.3755,
+    "minAge": 10,
+    "players": [
+      1,
+      4
+    ],
+    "playtime": [
+      60,
+      90
+    ],
+    "categories": [
+      "Strategy Games",
+      "Card Drafting",
+      "Dice Rolling",
+      "Drafting",
+      "Set Collection",
+      "Variable Player Powers",
+      "Setting: World of Ulos",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Wspieram",
+      "Mechanism: Dice Drafting",
+      "Misc: Self-Referential Games",
+      "Players: Games with Solitaire Rules"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/SoClIcwjDo_iZs0idVikDw__opengraph_left/img/t8pwjfDZhlQdtbTARlF9Yl0a2fU=/fit-in/445x445/filters:strip_icc()/pic4848330.jpg",
+    "name": "Horrified",
+    "color": "hsla(253, 29%, 6%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/282524",
+    "asin": "B07QQHTD4Q",
+    "weight": 2.0373,
+    "minAge": 10,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Family Games",
+      "Thematic Games",
+      "Action Points",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Pick-up and Deliver",
+      "Point to Point Movement",
+      "Solo / Solitaire Game",
+      "Admin: Better Description Needed!",
+      "Books: Dracula",
+      "Characters: Frankenstein",
+      "Creatures: Monsters",
+      "Creatures: Werewolves",
+      "Movies: Horror Movies"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/sUrK5CCscls-tTc2hJWDPg__opengraph_left/img/SspEabPioiuJPptGgyXZMmgQbXY=/fit-in/445x445/filters:strip_icc()/pic3482521.jpg",
+    "name": "Flamme Rouge",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/199478",
+    "asin": "B072P5XG2X",
+    "weight": 1.6655,
+    "minAge": 8,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      30,
+      45
+    ],
+    "categories": [
+      "Family Games",
+      "Catch the Leader",
+      "Hand Management",
+      "Modular Board",
+      "Race",
+      "Simulation",
+      "Simultaneous Action Selection",
+      "Game: Flamme Rouge",
+      "Sports: Bicycling / Cycling"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/iTBogxNFa3Ymh-6ST3srsw__opengraph_left/img/W3O1GXu1SiMis6637X1SiZyzoYw=/fit-in/445x445/filters:strip_icc()/pic4768766.jpg",
+    "name": "Watergate",
+    "color": "hsla(222, 56%, 4%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/274364",
+    "asin": "B07S4HGXQN",
+    "weight": 2.2593,
+    "minAge": 12,
+    "players": [
+      2,
+      2
+    ],
+    "playtime": [
+      30,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action/Event",
+      "Connections",
+      "Hand Management",
+      "Tug of War",
+      "Admin: Better Description Needed!",
+      "Country: USA",
+      "Decades: The 1970's",
+      "History: Cold War",
+      "Players: Two Player Only Games"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/S_-n-WRvpzgH-d8xuzJgmg__opengraph_letterbox/img/GXkfitBHIAJEx5icDpddOPYgAzE=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic1079512.png",
+    "name": "Glory to Rome",
+    "color": "hsla(9, 9%, 15%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/19857",
+    "asin": "B006GHUY3E",
+    "weight": 2.9283,
+    "minAge": 12,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      60,
+      60
+    ],
+    "categories": [
+      "Strategy Games",
+      "End Game Bonuses",
+      "Follow",
+      "Hand Management",
+      "Set Collection",
+      "Sudden Death Ending",
+      "Variable Phase Order",
+      "Ancient: Rome",
+      "Cities: Rome (Lazio, Italy)",
+      "Components: Multi-Use Cards",
+      "Crowdfunding: Kickstarter",
+      "Mechanism: Tableau Building"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/BZiR636JJdSBwThtH42DVw__opengraph_letterbox/img/xqQk1ECMue9nEfyOB-hKJLXwPx8=/fit-in/1200x630/filters:fill(auto):strip_icc()/pic3744052.jpg",
+    "name": "Hero Realms",
+    "color": "hsla(0, 0%, 43%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/198994",
+    "asin": "B01JEN17W8",
+    "weight": 1.9023,
+    "minAge": 12,
+    "players": [
+      2,
+      4
+    ],
+    "playtime": [
+      20,
+      30
+    ],
+    "categories": [
+      "Customizable Games",
+      "Strategy Games",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Take That",
+      "Crowdfunding: Kickstarter",
+      "Game: Hero Realms"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/pTnv3lUWs4Knl3fqer0KnA__opengraph/img/fr00tPKbzxpzP6pS3gGt_tsi3BQ=/fit-in/1200x630/filters:strip_icc()/pic2056160.jpg",
+    "name": "Power Grid Deluxe: Europe/North America",
+    "color": "hsla(89, 49%, 34%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/155873",
+    "asin": "B00NJMDVAC",
+    "weight": 3.1935,
+    "minAge": 12,
+    "players": [
+      2,
+      6
+    ],
+    "playtime": [
+      120,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Auction: Turn Order Until Pass",
+      "Income",
+      "Market",
+      "Network and Route Building",
+      "Continents: Europe",
+      "Continents: North America",
+      "Game: Power Grid"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/1bihoShOuqaCuZJXB3Q2gQ__opengraph/img/vLtGvFaQKcBNqFtzAr5YyhyVi6c=/fit-in/1200x630/filters:strip_icc()/pic3936124.jpg",
+    "name": "Century: Golem Edition",
+    "color": "hsla(280, 26%, 11%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/232832",
+    "asin": "B079DDN9SR",
+    "weight": 1.6429,
+    "minAge": 8,
+    "players": [
+      2,
+      5
+    ],
+    "playtime": [
+      30,
+      45
+    ],
+    "categories": [
+      "Family Games",
+      "Strategy Games",
+      "Action Retrieval",
+      "Card Drafting",
+      "Contracts",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Increase Value of Unchosen Resources",
+      "Game: Century (Plan B Games)"
+    ]
+  },
+  {
+    "image": "https://cf.geekdo-images.com/IiJ1JK6AjlSCKsC8U_DqMw__opengraph_left/img/xDbK47OtKVSqxsx6ZGQbxSWoT_U=/fit-in/445x445/filters:strip_icc()/pic5375937.jpg",
+    "name": "Lewis & Clark: The Expedition",
+    "color": "hsla(0, 0%, 100%, 1)",
+    "href": "https://boardgamegeek.com/boardgame/140620",
+    "asin": "B00IGOAB7Y",
+    "weight": 3.3429,
+    "minAge": 14,
+    "players": [
+      1,
+      5
+    ],
+    "playtime": [
+      120,
+      120
+    ],
+    "categories": [
+      "Strategy Games",
+      "Action Retrieval",
+      "Card Drafting",
+      "Hand Management",
+      "Race",
+      "Resource to Move",
+      "Solo / Solitaire Game",
+      "Components: Multi-Use Cards",
+      "Game: Lewis & Clark",
+      "Historical Figures: Lewis & Clark",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules",
+      "Theme: Native Americans / First Peoples"
+    ]
   }
 ]

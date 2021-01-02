@@ -7,18 +7,25 @@ import {GameId, GeekGame} from '../types'
 async function main() {
   const bestGameIds = await getBestGameIds()
   console.log(`Received ${bestGameIds.length} games`)
-  const data = await getAllGameDetails(bestGameIds)
   console.log('Fetching details...')
+  const data = await getAllGameDetails(bestGameIds)
 
   writeFileSync('./games.json', JSON.stringify(data, null, '  '))
 }
 
 async function getBestGameIds(): Promise<GameId[]> {
-  const url = `https://boardgamegeek.com/browse/boardgame`
-  const response = await got(url)
-  const document = new JSDOM(response.body).window.document
-  const links = Array.from(document.querySelectorAll('.collection_thumbnail a'))
-  const ids = links.map((link) => link.getAttribute('href').split('/')[2])
+  let ids = []
+  for (const pageNumber of [1, 2]) {
+    const url = `https://boardgamegeek.com/browse/boardgame/page/${pageNumber}`
+    const response = await got(url)
+    const document = new JSDOM(response.body).window.document
+    const links = Array.from(
+      document.querySelectorAll('.collection_thumbnail a')
+    )
+    ids = ids.concat(
+      links.map((link) => link.getAttribute('href').split('/')[2])
+    )
+  }
 
   return ids
 }
