@@ -31,6 +31,12 @@ export default function App() {
             defaultValue={[0, 3]}
             marks={{1: 'very easy', 5: 'very complex'}}
             dots
+            trackStyle={[{backgroundColor: '#272e6e'}]}
+            handleStyle={[
+              {border: 'solid 2px #272e6e'},
+              {border: 'solid 2px #272e6e'}
+            ]}
+            activeDotStyle={{border: 'solid 2px #272e6e'}}
           />
         </RangeContainer>
         <Button onClick={shuffleGames}>Shuffle</Button>
@@ -115,9 +121,9 @@ const OptionsBar = styled.section`
 const Button = styled.button`
   font-size: 20px;
   padding: 12px 40px;
-  border: 2px solid #333;
+  border: 2px solid #272e6e;
   background-color: transparent;
-  color: #333;
+  color: #272e6e;
   margin-bottom: 20px;
   cursor: pointer;
   border-radius: 7px;
@@ -127,7 +133,6 @@ const Button = styled.button`
 
   :hover {
     background-color: #fffefd;
-    color: black;
   }
 
   :active {
