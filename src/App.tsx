@@ -24,17 +24,17 @@ export default function App() {
       </RangeContainer>
       <GamesContainer>
         {games
-          .filter(
-            (game) =>
-              game.weight >= complexityRange[0] &&
-              game.weight <= complexityRange[1]
-          )
+          .filter((game) => inRange(Math.round(game.weight), complexityRange))
           .map((game) => {
             return <Game key={game.name} game={game} />
           })}
       </GamesContainer>
     </Main>
   )
+}
+
+function inRange(number: number, range: number[]) {
+  return number >= range[0] && number <= range[1]
 }
 
 const RangeContainer = styled.div`
