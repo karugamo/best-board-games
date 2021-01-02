@@ -112,7 +112,8 @@ const Button = styled.button`
   transition: background-color 0.2s, color 0.2s;
 
   :hover {
-    background-color: #fffefd;
+    background-color: #272e6e;
+    color: white;
   }
 
   :active {
