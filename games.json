@@ -17,7 +17,19 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Action Queue",
+      "Action Retrieval",
+      "Campaign / Battle Card Driven",
+      "Card Play Conflict Resolution",
+      "Communication Limits",
+      "Cooperative Game",
+      "Category: Dungeon Crawler",
+      "Components: Miniatures",
+      "Components: Multi-Use Cards",
+      "Crowdfunding: Kickstarter",
+      "Game: Gloomhaven",
+      "Mechanism: Campaign Games"
     ]
   },
   {
@@ -38,7 +50,19 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Action Points",
+      "Cooperative Game",
+      "Hand Management",
+      "Legacy Game",
+      "Point to Point Movement",
+      "Set Collection",
+      "Components: Map (Global Scale)",
+      "Game: Pandemic",
+      "Mechanism: Campaign Games",
+      "Mechanism: Legacy",
+      "Medical: Diseases",
+      "Region: The World"
     ]
   },
   {
@@ -58,7 +82,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Connections",
+      "Hand Management",
+      "Income",
+      "Loans",
+      "Market",
+      "Network and Route Building",
+      "Cities: Birmingham (England)",
+      "Country: England",
+      "Crowdfunding: Kickstarter",
+      "Food & Drink: Beer",
+      "Game: Brass",
+      "History: Industrial Revolution"
     ]
   },
   {
@@ -78,7 +114,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "End Game Bonuses",
+      "Hand Management",
+      "Hexagon Grid",
+      "Income",
+      "Set Collection",
+      "Components: Map (Global Scale)",
+      "Components: Multi-Use Cards",
+      "Game: Terraforming Mars",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules",
+      "Series: Future Timeline (Fryxgames)"
     ]
   },
   {
@@ -99,7 +147,18 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Action Drafting",
+      "Area Majority / Influence",
+      "Area-Impulse",
+      "Dice Rolling",
+      "Follow",
+      "Grid Movement",
+      "Components: Hexagonal Tiles",
+      "Components: Map (Interplanetary or Interstellar scale)",
+      "Components: Miniatures",
+      "Game: Twilight Imperium",
+      "Mechanism: 4X"
     ]
   },
   {
@@ -119,7 +178,14 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Points",
+      "Auction/Bidding",
+      "Auction: Dutch",
+      "Card Drafting",
+      "Income",
+      "Game: Through the Ages",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -139,7 +205,18 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "End Game Bonuses",
+      "Hexagon Grid",
+      "Income",
+      "Modular Board",
+      "Network and Route Building",
+      "Category: Combinatorial",
+      "Components: Control Boards",
+      "Components: Map (Interplanetary or Interstellar scale)",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -159,7 +236,16 @@
       240
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Area-Impulse",
+      "Delayed Purchase",
+      "Dice Rolling",
+      "Hand Management",
+      "Components: Map (Interplanetary or Interstellar scale)",
+      "Components: Miniatures",
+      "Movies: Star Wars"
     ]
   },
   {
@@ -180,7 +266,19 @@
     ],
     "categories": [
       "Strategy Games",
-      "Wargames"
+      "Wargames",
+      "Action/Event",
+      "Advantage Token",
+      "Area Majority / Influence",
+      "Campaign / Battle Card Driven",
+      "Dice Rolling",
+      "Hand Management",
+      "Components: Map (Global Scale)",
+      "Components: Multi-Use Cards",
+      "Country: Soviet Union",
+      "Country: USA",
+      "Game: Twilight Struggle",
+      "History: Cold War"
     ]
   },
   {
@@ -200,7 +298,18 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Ownership",
+      "Point to Point Movement",
+      "Rondel",
+      "Set Collection",
+      "Animals: Cattle / Cows",
+      "Components: Control Boards",
+      "Game: Great Western Trail",
+      "Mechanism: Tableau Building",
+      "Series: The Great Designers (Stronghold Games)"
     ]
   },
   {
@@ -221,7 +330,18 @@
     ],
     "categories": [
       "Thematic Games",
-      "Wargames"
+      "Wargames",
+      "Action Drafting",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Campaign / Battle Card Driven",
+      "Card Play Conflict Resolution",
+      "Dice Rolling",
+      "Authors: J.R.R. Tolkien",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Creatures: Monsters",
+      "Series: War of the Ring (Nexus/Ares Games)"
     ]
   },
   {
@@ -241,7 +361,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Retrieval",
+      "Area Majority / Influence",
+      "Cooperative Game",
+      "Events",
+      "Hand Management",
+      "Modular Board",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Crowdfunding: Kickstarter",
+      "Game: Spirit Island",
+      "Players: Games with Solitaire Rules",
+      "Theme: Colonial"
     ]
   },
   {
@@ -261,7 +393,19 @@
       115
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Card Play Conflict Resolution",
+      "Follow",
+      "Force Commitment",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Components: Control Boards",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Crowdfunding: Kickstarter",
+      "Game: Scythe",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -282,7 +426,19 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Action Queue",
+      "Campaign / Battle Card Driven",
+      "Communication Limits",
+      "Cooperative Game",
+      "Critical Hits and Failures",
+      "Deck Construction",
+      "Category: Dungeon Crawler",
+      "Components: Book as Board",
+      "Components: Multi-Use Cards",
+      "Game: Gloomhaven",
+      "Mechanism: Legacy",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -302,7 +458,19 @@
       90
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Dice Rolling",
+      "Grid Coverage",
+      "Hexagon Grid",
+      "Set Collection",
+      "Tile Placement",
+      "Turn Order: Stat-Based",
+      "Components: Map (Continental / National scale)",
+      "Country: France",
+      "Game: The Castles of Burgundy",
+      "Mechanism: Tableau Building",
+      "Players: Games with expansions that add solo play",
+      "Region: Burgundy (France)"
     ]
   },
   {
@@ -322,7 +490,18 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "End Game Bonuses",
+      "Hexagon Grid",
+      "Income",
+      "Increase Value of Unchosen Resources",
+      "Network and Route Building",
+      "Turn Order: Pass Order",
+      "Category: Combinatorial",
+      "Components: Control Boards",
+      "Components: Map (Continental / National scale)",
+      "Game: Terra Mystica",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -342,7 +521,18 @@
       30
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Drafting",
+      "Set Collection",
+      "Sudden Death Ending",
+      "Tug of War",
+      "Game: 7 Wonders",
+      "Game: 7 Wonders Duel",
+      "Mechanism: Tableau Building",
+      "Players: Games with expansions that add solo play",
+      "Players: Two Player Only Games",
+      "Versions & Editions: Two-Player Versions of More-Player Games"
     ]
   },
   {
@@ -362,7 +552,17 @@
       100
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Retrieval",
+      "Advantage Token",
+      "Auction: Dutch",
+      "Card Drafting",
+      "Hand Management",
+      "Movement Points",
+      "Ancient: Rome",
+      "Components: Map (Continental / National scale)",
+      "Game: Concordia",
+      "Region: Mediterranean Sea"
     ]
   },
   {
@@ -382,7 +582,15 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Hand Management",
+      "Income",
+      "Loans",
+      "Network and Route Building",
+      "Cities: Manchester (England)",
+      "Country: England",
+      "Game: Brass",
+      "History: Industrial Revolution"
     ]
   },
   {
@@ -403,7 +611,19 @@
     ],
     "categories": [
       "Family Games",
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Dice Rolling",
+      "Drafting",
+      "End Game Bonuses",
+      "Hand Management",
+      "Set Collection",
+      "Animals: Birds",
+      "Animals: Crows / Ravens / Magpies",
+      "Animals: Ducks",
+      "Animals: Geese",
+      "Animals: Owls",
+      "Animals: Turkeys"
     ]
   },
   {
@@ -424,7 +644,19 @@
     ],
     "categories": [
       "Customizable Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Action Points",
+      "Cooperative Game",
+      "Deck Construction",
+      "Hand Management",
+      "Role Playing",
+      "Scenario / Mission / Campaign Game",
+      "Collectible: Living Card Game (Fantasy Flight Games)",
+      "Game: Arkham Horror – The Card Game",
+      "Mechanism: Campaign Games",
+      "Players: Games with Solitaire Rules",
+      "Series: Arkham Horror Files (Fantasy Flight Games)",
+      "Theme: Cthulhu Mythos"
     ]
   },
   {
@@ -444,7 +676,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Automatic Resource Growth",
+      "Dice Rolling",
+      "Grid Coverage",
+      "Income",
+      "Push Your Luck",
+      "Solo / Solitaire Game",
+      "Admin: Better Description Needed!",
+      "Components: Polyominoes",
+      "Country: Iceland",
+      "Game: A Feast for Odin",
+      "Mechanism: Tableau Building",
+      "Mythology: Norse"
     ]
   },
   {
@@ -464,7 +708,17 @@
       90
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Contracts",
+      "Hand Management",
+      "Solo / Solitaire Game",
+      "Turn Order: Auction",
+      "Victory Points as a Resource",
+      "Worker Placement",
+      "Country: Italy",
+      "Food & Drink: Wine",
+      "Game: Viticulture",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -484,7 +738,16 @@
       90
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Deck, Bag, and Pool Building",
+      "Point to Point Movement",
+      "Turn Order: Progressive",
+      "Cities: Orléans (France)",
+      "Country: France",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Wspieram",
+      "Game: Orléans",
+      "Players: Games with expansions that add solo play"
     ]
   },
   {
@@ -505,7 +768,18 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Card Drafting",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Dice Rolling",
+      "Grid Movement",
+      "Hand Management",
+      "Components: Clix",
+      "Components: Miniatures",
+      "Components: Multi-Use Cards",
+      "Players: Games with Solitaire Rules",
+      "Setting: Mage Knight"
     ]
   },
   {
@@ -525,7 +799,19 @@
       180
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Campaign / Battle Card Driven",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Hidden Roles",
+      "Modular Board",
+      "Player Elimination",
+      "Category: Dungeon Crawler",
+      "Components: Dice with Icons",
+      "Components: Miniatures",
+      "Components: Polyhedral (not D6) dice",
+      "Creatures: Aliens / Extraterrestrials",
+      "Crowdfunding: Kickstarter"
     ]
   },
   {
@@ -545,7 +831,19 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Drafting",
+      "End Game Bonuses",
+      "Follow",
+      "Hidden Victory Points",
+      "Increase Value of Unchosen Resources",
+      "Turn Order: Progressive",
+      "Country: Puerto Rico",
+      "Game: Puerto Rico",
+      "Mechanism: Tableau Building",
+      "Series: Alea Big Box",
+      "Theme: Colonial",
+      "Theme: Tropical"
     ]
   },
   {
@@ -566,7 +864,19 @@
     ],
     "categories": [
       "Strategy Games",
-      "Wargames"
+      "Wargames",
+      "Action Queue",
+      "Action Retrieval",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Dice Rolling",
+      "Hand Management",
+      "Animals: Birds",
+      "Animals: Cats",
+      "Animals: Foxes",
+      "Animals: Mice",
+      "Animals: Rabbits",
+      "Animals: Raccoons"
     ]
   },
   {
@@ -586,7 +896,19 @@
       210
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Automatic Resource Growth",
+      "Increase Value of Unchosen Resources",
+      "Solo / Solitaire Game",
+      "Tile Placement",
+      "Turn Order: Claim Action",
+      "Worker Placement",
+      "Animals: Cattle / Cows",
+      "Animals: Dogs",
+      "Animals: Donkeys",
+      "Animals: Sheep",
+      "Components: Meeples (Animal) / Animeeples",
+      "Game: Caverna (Uwe Rosenberg)"
     ]
   },
   {
@@ -606,7 +928,15 @@
       240
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Delayed Purchase",
+      "Income",
+      "Market",
+      "Modular Board",
+      "Network and Route Building",
+      "Decades: The 1950's",
+      "Theme: Food / Cooking"
     ]
   },
   {
@@ -626,7 +956,19 @@
       1000
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Cooperative Game",
+      "Grid Movement",
+      "Hand Management",
+      "Map Addition",
+      "Modular Board",
+      "Scenario / Mission / Campaign Game",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Components: Official Music Soundtrack",
+      "Crowdfunding: Kickstarter",
+      "Mechanism: Campaign Games",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -646,7 +988,19 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Advantage Token",
+      "Automatic Resource Growth",
+      "Card Drafting",
+      "Enclosure",
+      "Hand Management",
+      "Increase Value of Unchosen Resources",
+      "Animals: Cattle / Cows",
+      "Animals: Horses",
+      "Animals: Pigs",
+      "Animals: Sheep",
+      "Components: Meeples (Animal) / Animeeples",
+      "Game: Agricola"
     ]
   },
   {
@@ -667,7 +1021,19 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Cooperative Game",
+      "Hand Management",
+      "Legacy Game",
+      "Pick-up and Deliver",
+      "Point to Point Movement",
+      "Set Collection",
+      "Components: Map (Global Scale)",
+      "Game: Pandemic",
+      "Mechanism: Campaign Games",
+      "Mechanism: Legacy",
+      "Theme: Post-Apocalyptic",
+      "Versions & Editions: Legacy Versions of Non-Legacy Games"
     ]
   },
   {
@@ -687,7 +1053,19 @@
       180
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Area Movement",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Hand Management",
+      "Modular Board",
+      "Role Playing",
+      "Category: Dungeon Crawler",
+      "Components: Digital Hybrid - App Required",
+      "Components: Miniatures",
+      "Game: Mansions of Madness",
+      "Players: Games with Solitaire Rules",
+      "Series: Arkham Horror Files (Fantasy Flight Games)"
     ]
   },
   {
@@ -707,7 +1085,19 @@
       90
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Points",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Card Drafting",
+      "Hand Management",
+      "Memory",
+      "Components: Control Boards",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Crowdfunding: Kickstarter",
+      "Game: Blood Rage",
+      "Mythology: Norse"
     ]
   },
   {
@@ -728,7 +1118,19 @@
     ],
     "categories": [
       "Family Games",
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "End Game Bonuses",
+      "Hand Management",
+      "Income",
+      "Solo / Solitaire Game",
+      "Variable Set-up",
+      "Components: 3-Dimensional (3D)",
+      "Crowdfunding: Kickstarter",
+      "Game: Everdell",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules",
+      "Animals: Badgers"
     ]
   },
   {
@@ -748,7 +1150,18 @@
       180
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Grid Movement",
+      "Role Playing",
+      "Solo / Solitaire Game",
+      "Storytelling",
+      "Components: Miniatures",
+      "Crowdfunding: Kickstarter",
+      "Game: Kingdom Death Monster",
+      "Mechanism: Campaign Games",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -768,7 +1181,18 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Auction/Bidding",
+      "Auction: Turn Order Until Pass",
+      "Catch the Leader",
+      "Income",
+      "Market",
+      "Network and Route Building",
+      "Components: Map (Continental / National scale)",
+      "Country: Germany",
+      "Country: USA",
+      "Game: Power Grid",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -788,7 +1212,17 @@
       90
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Bias",
+      "End Game Bonuses",
+      "Turn Order: Claim Action",
+      "Worker Placement",
+      "Components: Gears",
+      "Country: Mexico",
+      "Game: Tzolk'in – The Mayan Calendar",
+      "Theme: Mayans",
+      "Theme: Native Americans / First Peoples",
+      "Theme: Tropical"
     ]
   },
   {
@@ -809,7 +1243,16 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Action Queue",
+      "Bias",
+      "Card Drafting",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Modular Board",
+      "Components: Game Trayz Inside",
+      "Components: Miniatures",
+      "Mechanism: Campaign Games"
     ]
   },
   {
@@ -829,7 +1272,19 @@
       120
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Dice Rolling",
+      "Die Icon Resolution",
+      "Grid Movement",
+      "Line of Sight",
+      "Modular Board",
+      "Role Playing",
+      "Category: Dungeon Crawler",
+      "Components: Dice with Icons",
+      "Components: Miniatures",
+      "Game: Star Wars Imperial Assault",
+      "Mechanism: Campaign Games",
+      "Movies: Star Wars"
     ]
   },
   {
@@ -849,7 +1304,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Contracts",
+      "End Game Bonuses",
+      "Events",
+      "Hand Management",
+      "Income",
+      "Legacy Game",
+      "Cities: Maracaibo (Venezuela)",
+      "Components: Control Boards",
+      "Components: Map (Continental / National scale)",
+      "Components: Multi-Use Cards",
+      "Country: Venezuela",
+      "Game: Maracaibo"
     ]
   },
   {
@@ -869,7 +1336,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Commodity Speculation",
+      "Contracts",
+      "Dice Rolling",
+      "Market",
+      "Modular Board",
+      "Network and Route Building",
+      "Animals: Cattle / Cows",
+      "Animals: Sheep",
+      "Components: Control Boards",
+      "Country: Scotland",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: zagramwto"
     ]
   },
   {
@@ -889,7 +1368,14 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Points",
+      "Auction/Bidding",
+      "Auction: Dutch",
+      "Card Drafting",
+      "Hand Management",
+      "Game: Through the Ages",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -909,7 +1395,19 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Automatic Resource Growth",
+      "End Game Bonuses",
+      "Increase Value of Unchosen Resources",
+      "Loans",
+      "Ownership",
+      "Worker Placement",
+      "Cities: Le Havre (France)",
+      "Country: France",
+      "Game: Le Havre",
+      "Players: Games with Solitaire Rules",
+      "Region: Normandy (France)",
+      "Series: Harvest (Uwe Rosenberg)"
     ]
   },
   {
@@ -930,7 +1428,14 @@
     ],
     "categories": [
       "Family Games",
-      "Strategy Games"
+      "Strategy Games",
+      "Communication Limits",
+      "Cooperative Game",
+      "Scenario / Mission / Campaign Game",
+      "Trick-taking",
+      "Game: The Crew",
+      "Mechanism: Campaign Games",
+      "Space: Earth's Solar System"
     ]
   },
   {
@@ -951,7 +1456,17 @@
     ],
     "categories": [
       "Abstract Games",
-      "Family Games"
+      "Family Games",
+      "Card Drafting",
+      "Drafting",
+      "End Game Bonuses",
+      "Pattern Building",
+      "Set Collection",
+      "Tile Placement",
+      "Country: Portugal",
+      "Game: Azul",
+      "Misc: Mensa Select",
+      "Theme: Art"
     ]
   },
   {
@@ -971,7 +1486,18 @@
       180
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Dice Rolling",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Map Addition",
+      "Modular Board",
+      "Components: Control Boards",
+      "Components: Map (Interplanetary or Interstellar scale)",
+      "Components: Miniatures",
+      "Game: Eclipse (Lautapelit.fi)",
+      "Mechanism: 4X"
     ]
   },
   {
@@ -991,7 +1517,16 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "End Game Bonuses",
+      "Hand Management",
+      "Income",
+      "Network and Route Building",
+      "Solo / Solitaire Game",
+      "Turn Order: Stat-Based",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules",
+      "Theme: Under the Sea"
     ]
   },
   {
@@ -1011,7 +1546,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Dice Rolling",
+      "Solo / Solitaire Game",
+      "Tug of War",
+      "Turn Order: Claim Action",
+      "Variable Player Powers",
+      "Worker Placement",
+      "Components: Miniatures",
+      "Crowdfunding: Kickstarter",
+      "Game: Anachrony",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules",
+      "Theme: Time Travel"
     ]
   },
   {
@@ -1032,7 +1579,16 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Dice Rolling",
+      "Die Icon Resolution",
+      "Hand Management",
+      "Resource to Move",
+      "Crowdfunding: Kickstarter",
+      "Game: Too Many Bones",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -1052,7 +1608,19 @@
       100
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Contracts",
+      "Dice Rolling",
+      "Income",
+      "Point to Point Movement",
+      "Resource to Move",
+      "Set Collection",
+      "Animals: Camels",
+      "Cities: Beijing (China)",
+      "Cities: Samarkand (Uzbekistan)",
+      "Cities: Venice (Veneto, Italy)",
+      "Components: Map (Continental / National scale)",
+      "Continents: Asia"
     ]
   },
   {
@@ -1072,7 +1640,19 @@
       120
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Action Queue",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Hexagon Grid",
+      "Narrative Choice / Paragraph",
+      "Solo / Solitaire Game",
+      "Components: Dice with Icons",
+      "Game: Robinson Crusoe – Adventures on the Cursed Island",
+      "Misc: LongPack Games",
+      "Players: Games with Solitaire Rules",
+      "Theme: Survival",
+      "Theme: Tropical Islands"
     ]
   },
   {
@@ -1092,7 +1672,19 @@
       45
     ],
     "categories": [
-      "Customizable Games"
+      "Customizable Games",
+      "Action Points",
+      "Deck Construction",
+      "Hand Management",
+      "Secret Unit Deployment",
+      "Take That",
+      "Variable Player Powers",
+      "Collectible: Collectible Card Games",
+      "Collectible: Living Card Game (Fantasy Flight Games)",
+      "Game: Android – Netrunner (LCG)",
+      "Players: Two Player Only Games",
+      "Setting: Android",
+      "Theme: Cyberpunk"
     ]
   },
   {
@@ -1112,7 +1704,18 @@
       90
     ],
     "categories": [
-      "Customizable Games"
+      "Customizable Games",
+      "Cooperative Game",
+      "Deck Construction",
+      "Hand Management",
+      "Scenario / Mission / Campaign Game",
+      "Solo / Solitaire Game",
+      "Variable Player Powers",
+      "Collectible: Living Card Game (Fantasy Flight Games)",
+      "Comic Books: Marvel Universe",
+      "Game: Marvel Champions – The Card Game",
+      "Players: Games with Solitaire Rules",
+      "Theme: Superheroes"
     ]
   },
   {
@@ -1132,7 +1735,18 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Commodity Speculation",
+      "Investment",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Worker Placement",
+      "Crowdfunding: Giochistarter",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Spieleschmiede",
+      "Game: The Gallerist",
+      "Players: Games with Solitaire Rules",
+      "Theme: Art"
     ]
   },
   {
@@ -1152,7 +1766,17 @@
       60
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Follow",
+      "Hand Management",
+      "Set Collection",
+      "Simultaneous Action Selection",
+      "Turn Order: Role Order",
+      "Variable Phase Order",
+      "Components: Multi-Use Cards",
+      "Game: Race for the Galaxy",
+      "Mechanism: Tableau Building",
+      "Players: Games with expansions that add solo play"
     ]
   },
   {
@@ -1173,7 +1797,15 @@
     ],
     "categories": [
       "Family Games",
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Drafting",
+      "Hand Management",
+      "Set Collection",
+      "Simultaneous Action Selection",
+      "Variable Player Powers",
+      "Game: 7 Wonders",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -1193,7 +1825,16 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Automatic Resource Growth",
+      "Solo / Solitaire Game",
+      "Worker Placement",
+      "Admin: Better Description Needed!",
+      "Animals: Cattle / Cows",
+      "Animals: Horses",
+      "Animals: Sheep",
+      "Category: Combinatorial",
+      "Components: Meeples (Animal) / Animeeples"
     ]
   },
   {
@@ -1213,7 +1854,17 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Movement",
+      "Rondel",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Tile Placement",
+      "Track Movement",
+      "Country: Mexico",
+      "Game: Teotihuacan",
+      "Players: Games with Solitaire Rules",
+      "Theme: Native Americans / First Peoples"
     ]
   },
   {
@@ -1234,7 +1885,19 @@
     ],
     "categories": [
       "Family Games",
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Drafting",
+      "End Game Bonuses",
+      "Pick-up and Deliver",
+      "Player Elimination",
+      "Components: Meeples (Blue)",
+      "Components: Meeples (Green)",
+      "Components: Meeples (Red)",
+      "Components: Meeples (Yellow)",
+      "Creatures: Dragons",
+      "Creatures: Goblins"
     ]
   },
   {
@@ -1254,7 +1917,18 @@
       240
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Card Drafting",
+      "Grid Movement",
+      "Hexagon Grid",
+      "Map Addition",
+      "Modular Board",
+      "Components: Map (Continental / National scale)",
+      "Game: Dominant Species",
+      "Mechanism: 4X",
+      "Theme: Biology",
+      "Theme: Evolution"
     ]
   },
   {
@@ -1274,7 +1948,18 @@
       80
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Auction/Bidding",
+      "End Game Bonuses",
+      "Hidden Victory Points",
+      "Mancala",
+      "Modular Board",
+      "Set Collection",
+      "Animals: Camels",
+      "Components: Meeples (Animal) / Animeeples",
+      "Game: Five Tribes",
+      "Mythology: Arabian",
+      "Region: Middle East"
     ]
   },
   {
@@ -1294,7 +1979,16 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Contracts",
+      "Hidden Roles",
+      "Increase Value of Unchosen Resources",
+      "Ownership",
+      "Set Collection",
+      "Game: Lords of Waterdeep",
+      "Setting: Dungeons & Dragons",
+      "Versions & Editions: Board Game Versions of Role-Playing Games"
     ]
   },
   {
@@ -1314,7 +2008,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Auction/Bidding",
+      "Auction: Fixed Placement",
+      "Constrained Bidding",
+      "End Game Bonuses",
+      "Hexagon Grid",
+      "Memory",
+      "Components: Meeples (Blue)",
+      "Components: Meeples (Green)",
+      "Components: Meeples (Red)",
+      "Components: Meeples (Yellow)",
+      "Crowdfunding: Kickstarter",
+      "Game: Keyflower"
     ]
   },
   {
@@ -1334,7 +2040,18 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Card Drafting",
+      "Hand Management",
+      "Solo / Solitaire Game",
+      "Tile Placement",
+      "Cities: Lisbon (Portugal)",
+      "Components: Multi-Use Cards",
+      "Country: Portugal",
+      "Crowdfunding: Giochistarter",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Spieleschmiede"
     ]
   },
   {
@@ -1354,7 +2071,12 @@
       30
     ],
     "categories": [
-      "Family Games"
+      "Family Games",
+      "Flicking",
+      "Team-Based Game",
+      "Admin: Better Description Needed!",
+      "Mechanism: Finger Flicking Games",
+      "Traditional Games: Crokinole"
     ]
   },
   {
@@ -1374,7 +2096,17 @@
       60
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Hand Management",
+      "Solo / Solitaire Game",
+      "Components: Official Music Soundtrack",
+      "Crowdfunding: Kickstarter",
+      "Game: Aeon's End",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -1394,7 +2126,14 @@
       45
     ],
     "categories": [
-      "Family Games"
+      "Family Games",
+      "Catch the Leader",
+      "Deck, Bag, and Pool Building",
+      "Dice Rolling",
+      "Push Your Luck",
+      "Components: Dice with Icons",
+      "Country: Germany",
+      "Game: The Quacks of Quedlinburg"
     ]
   },
   {
@@ -1414,7 +2153,17 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Enclosure",
+      "Hand Management",
+      "Worker Placement",
+      "Advantage Token",
+      "Automatic Resource Growth",
+      "Game: Agricola",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules",
+      "Series: Harvest (Uwe Rosenberg)"
     ]
   },
   {
@@ -1434,7 +2183,16 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Ownership",
+      "Turn Order: Claim Action",
+      "Turn Order: Pass Order",
+      "Variable Set-up",
+      "Worker Placement",
+      "Category: Combinatorial",
+      "Country: France",
+      "Game: Caylus",
+      "Series: Ystari originals"
     ]
   },
   {
@@ -1454,7 +2212,17 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Drafting",
+      "Contracts",
+      "End Game Bonuses",
+      "Income",
+      "Network and Route Building",
+      "Solo / Solitaire Game",
+      "Crowdfunding: Kickstarter",
+      "Game: Barrage",
+      "Players: Games with Solitaire Rules",
+      "Theme: Dieselpunk"
     ]
   },
   {
@@ -1474,7 +2242,16 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Contracts",
+      "Delayed Purchase",
+      "Drafting",
+      "End Game Bonuses",
+      "Hand Management",
+      "Crowdfunding: Kickstarter",
+      "Players: Games with Solitaire Rules",
+      "Space: Mars"
     ]
   },
   {
@@ -1494,7 +2271,17 @@
       120
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Legacy Game",
+      "Once-Per-Game Abilities",
+      "Point to Point Movement",
+      "Push Your Luck",
+      "Game: Clank!",
+      "Mechanism: Campaign Games",
+      "Mechanism: Legacy",
+      "Versions & Editions: Legacy Versions of Non-Legacy Games"
     ]
   },
   {
@@ -1514,7 +2301,15 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Market",
+      "Solo / Solitaire Game",
+      "Worker Placement",
+      "Worker Placement, Different Worker Types",
+      "Crowdfunding: Kickstarter",
+      "Players: Games with Solitaire Rules",
+      "Series: The West Kingdom Trilogy (Garphill Games)"
     ]
   },
   {
@@ -1534,7 +2329,16 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Drafting",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Auction/Bidding",
+      "Card Drafting",
+      "Hand Management",
+      "Components: Map (Continental / National scale)",
+      "Country: Spain",
+      "Game: El Grande"
     ]
   },
   {
@@ -1555,7 +2359,19 @@
     ],
     "categories": [
       "Strategy Games",
-      "Thematic Games"
+      "Thematic Games",
+      "Action Points",
+      "Area-Impulse",
+      "Dice Rolling",
+      "Follow",
+      "Hexagon Grid",
+      "Increase Value of Unchosen Resources",
+      "Components: Hexagonal Tiles",
+      "Components: Map (Interplanetary or Interstellar scale)",
+      "Components: Miniatures",
+      "Game: Twilight Imperium",
+      "Mechanism: 4X",
+      "Series: Fantasy Flight Big Box"
     ]
   },
   {
@@ -1575,7 +2391,16 @@
       80
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Drafting",
+      "Solo / Solitaire Game",
+      "Variable Player Powers",
+      "Worker Placement",
+      "Crowdfunding: Kickstarter",
+      "Misc: Mensa Select",
+      "Players: Games with Solitaire Rules",
+      "Series: The West Kingdom Trilogy (Garphill Games)",
+      "Theme: Construction"
     ]
   },
   {
@@ -1595,7 +2420,17 @@
       240
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Action Points",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Point to Point Movement",
+      "Role Playing",
+      "Solo / Solitaire Game",
+      "Game: Eldritch Horror",
+      "Players: Games with Solitaire Rules",
+      "Series: Arkham Horror Files (Fantasy Flight Games)",
+      "Theme: Cthulhu Mythos"
     ]
   },
   {
@@ -1615,7 +2450,15 @@
       180
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Area Movement",
+      "Dice Rolling",
+      "Hand Management",
+      "Hidden Roles",
+      "Once-Per-Game Abilities",
+      "Role Playing",
+      "Components: Multi-Use Cards",
+      "TV Shows: Battlestar Galactica"
     ]
   },
   {
@@ -1635,7 +2478,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Drafting",
+      "Alliances",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Auction: Sealed Bid",
+      "Betting and Bluffing",
+      "Admin: Better Description Needed!",
+      "Components: Map (Continental / National scale)",
+      "Components: Miniatures",
+      "Country: Japan",
+      "Crowdfunding: Kickstarter",
+      "Game: Rising Sun"
     ]
   },
   {
@@ -1655,7 +2510,19 @@
       150
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Queue",
+      "Area Majority / Influence",
+      "Card Drafting",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Investment",
+      "Admin: Better Description Needed!",
+      "Components: Map (Continental / National scale)",
+      "Continents: Africa",
+      "Game: Mombasa",
+      "Mechanism: Tableau Building",
+      "Theme: Colonial"
     ]
   },
   {
@@ -1675,7 +2542,11 @@
       30
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Crowdfunding: Wspieram",
+      "Game: Dominion"
     ]
   },
   {
@@ -1695,7 +2566,17 @@
       90
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Dice Rolling",
+      "End Game Bonuses",
+      "Hidden Victory Points",
+      "Lose a Turn",
+      "Ownership",
+      "Cities: Troyes (France)",
+      "Country: France",
+      "Game: Troyes",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -1715,7 +2596,18 @@
       120
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Area Movement",
+      "Campaign / Battle Card Driven",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Dice Rolling",
+      "Hand Management",
+      "Components: Miniatures",
+      "Crowdfunding: Kickstarter",
+      "Game: Tainted Grail",
+      "Mechanism: Campaign Games",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -1736,7 +2628,19 @@
     ],
     "categories": [
       "Abstract Games",
-      "Family Games"
+      "Family Games",
+      "Card Drafting",
+      "Grid Coverage",
+      "Income",
+      "Rondel",
+      "Square Grid",
+      "Tile Placement",
+      "Category: Combinatorial",
+      "Components: Polyominoes",
+      "Game: Patchwork",
+      "Players: Games with expansions that add solo play",
+      "Players: Two Player Only Games",
+      "Series: Fur Zwei Spieler (Lookout Games)"
     ]
   },
   {
@@ -1756,7 +2660,13 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "End Game Bonuses",
+      "Worker Placement",
+      "Admin: Better Description Needed!",
+      "Country: Russia",
+      "Game: Russian Railroads",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -1776,7 +2686,18 @@
       80
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Dice Rolling",
+      "Hand Management",
+      "Set Collection",
+      "Worker Placement",
+      "Worker Placement, Different Worker Types",
+      "Components: Dice with Icons",
+      "Components: Multi-Use Cards",
+      "Crowdfunding: Kickstarter",
+      "Crowdfunding: Wspieram",
+      "Misc: Mensa Select",
+      "Players: Games with expansions that add solo play"
     ]
   },
   {
@@ -1796,7 +2717,14 @@
       15
     ],
     "categories": [
-      "Party Games"
+      "Party Games",
+      "Communication Limits",
+      "Memory",
+      "Push Your Luck",
+      "Team-Based Game",
+      "Game: Codenames",
+      "Mechanism: Give a Clue / Get a Clue",
+      "Word Games: Guess the Word"
     ]
   },
   {
@@ -1816,7 +2744,18 @@
       90
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Majority / Influence",
+      "Hand Management",
+      "Highest-Lowest Scoring",
+      "Set Collection",
+      "Tile Placement",
+      "Ancient: Mesopotamia",
+      "Game: Tigris & Euphrates",
+      "Region: Middle East",
+      "Rivers: Euphrates",
+      "Rivers: Tigris",
+      "Series: Euro Classics (Reiner Knizia)"
     ]
   },
   {
@@ -1836,7 +2775,18 @@
       45
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Retrieval",
+      "Contracts",
+      "Dice Rolling",
+      "Follow",
+      "Simultaneous Action Selection",
+      "Variable Phase Order",
+      "Components: Dice with Icons",
+      "Crowdfunding: Wspieram",
+      "Game: Race for the Galaxy",
+      "Mechanism: Tableau Building",
+      "Versions & Editions: Dice Versions of Non-Dice Games"
     ]
   },
   {
@@ -1856,7 +2806,19 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Points",
+      "Area Majority / Influence",
+      "Area Movement",
+      "Card Drafting",
+      "Hand Management",
+      "Increase Value of Unchosen Resources",
+      "Country: Afghanistan",
+      "Crowdfunding: Kickstarter",
+      "Game: Pax Pamir",
+      "History: Anglo-Afghan Wars",
+      "Mechanism: Tableau Building",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -1876,7 +2838,17 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Drafting",
+      "Contracts",
+      "Dice Rolling",
+      "End Game Bonuses",
+      "Hand Management",
+      "Once-Per-Game Abilities",
+      "Cities: Vienna (Austria)",
+      "Country: Austria",
+      "Mechanism: Dice Drafting",
+      "Theme: Food / Cooking"
     ]
   },
   {
@@ -1896,7 +2868,19 @@
       120
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Modular Board",
+      "Role Playing",
+      "Scenario / Mission / Campaign Game",
+      "Solo / Solitaire Game",
+      "Authors: J.R.R. Tolkien",
+      "Category: Dungeon Crawler",
+      "Components: Digital Hybrid - App Required",
+      "Components: Miniatures",
+      "Mechanism: Campaign Games",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -1916,7 +2900,15 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Area Movement",
+      "Card Drafting",
+      "Hand Management",
+      "Mancala",
+      "Rondel",
+      "Set Collection",
+      "Ancient: Rome",
+      "Series: Master Print Edition (Quined)"
     ]
   },
   {
@@ -1936,7 +2928,16 @@
       120
     ],
     "categories": [
-      "Thematic Games"
+      "Thematic Games",
+      "Cooperative Game",
+      "Solo / Solitaire Game",
+      "Storytelling",
+      "Books: Mystery Novels",
+      "Books: Sherlock Holmes",
+      "Cities: London (England)",
+      "Country: England",
+      "Game: Sherlock Holmes Consulting Detective",
+      "Players: Games with Solitaire Rules"
     ]
   },
   {
@@ -1956,7 +2957,15 @@
       30
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Hand Management",
+      "Take That",
+      "Variable Set-up",
+      "Crowdfunding: Wspieram",
+      "Game: Dominion",
+      "Misc: Mensa Select"
     ]
   },
   {
@@ -1977,7 +2986,19 @@
     ],
     "categories": [
       "Family Games",
-      "Strategy Games"
+      "Strategy Games",
+      "Action Points",
+      "Cooperative Game",
+      "Hand Management",
+      "Point to Point Movement",
+      "Set Collection",
+      "Trading",
+      "Components: Map (Global Scale)",
+      "Components: Multi-Use Cards",
+      "Game: Pandemic",
+      "Medical: Diseases",
+      "Occupation: Dispatcher",
+      "Occupation: Medic / Doctor / Nurses"
     ]
   },
   {
@@ -1997,7 +3018,16 @@
       120
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Card Drafting",
+      "Dice Rolling",
+      "Variable Player Powers",
+      "Worker Placement",
+      "Worker Placement with Dice Workers",
+      "Cities: Florence (Tuscany, Italy)",
+      "Country: Italy",
+      "Game: Lorenzo il Magnifico",
+      "Mechanism: Tableau Building"
     ]
   },
   {
@@ -2017,7 +3047,18 @@
       45
     ],
     "categories": [
-      "Strategy Games"
+      "Strategy Games",
+      "Action Points",
+      "Cooperative Game",
+      "Hand Management",
+      "Point to Point Movement",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Components: Map (Continental / National scale)",
+      "Country: Andorra",
+      "Country: Portugal",
+      "Country: Spain",
+      "Game: Pandemic"
     ]
   }
 ]

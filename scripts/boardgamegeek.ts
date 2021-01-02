@@ -63,7 +63,10 @@ async function getGame(id: GameId): Promise<GeekGame> {
     Number(item.maxplaytime)
   ]
 
-  const categories = item.links.boardgamesubdomain.map(({name}) => name)
+  const subdomains = item.links.boardgamesubdomain.map(({name}) => name)
+  const mechanics = item.links.boardgamemechanic.map(({name}) => name)
+  const families = item.links.boardgamefamily.map(({name}) => name)
+  const categories = [...subdomains, ...mechanics, ...families]
 
   const asin = await getASIN(id)
   const color: string = (await showColors(image, 1))[0]
