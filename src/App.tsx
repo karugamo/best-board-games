@@ -10,7 +10,7 @@ export default function App() {
       <Logo />
       <GamesContainer>
         {games.map((game) => {
-          return <Game key={game.name} {...game} />
+          return <Game key={game.name} game={game} />
         })}
       </GamesContainer>
     </Main>

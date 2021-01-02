@@ -10,8 +10,6 @@ async function main() {
   const data = await getAllGameDetails(bestGameIds)
   console.log('Fetching details...')
 
-  console.log(await getASIN(bestGameIds[0]))
-
   writeFileSync('./games.json', JSON.stringify(data, null, '  '))
 }
 
@@ -49,14 +47,35 @@ async function getGame(id: GameId): Promise<GeekGame> {
     .querySelector('meta[name~="title"]')
     .getAttribute('content')
 
+  // yolo
+  const {item} = eval(
+    document.querySelectorAll('script')[1].innerHTML + '\n GEEK.geekitemPreload'
+  )
+
+  const weight = Number(item.stats.avgweight)
+  const minAge = Number(item.minage)
+  const players: [number, number] = [
+    Number(item.minplayers),
+    Number(item.maxplayers)
+  ]
+  const playtime: [number, number] = [
+    Number(item.minplaytime),
+    Number(item.maxplaytime)
+  ]
+
   const asin = await getASIN(id)
   const color: string = (await showColors(image, 1))[0]
+
   return {
     image,
     name,
     color,
     href: url,
-    asin
+    asin,
+    weight,
+    minAge,
+    players,
+    playtime
   }
 }
 
