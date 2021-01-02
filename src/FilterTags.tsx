@@ -48,7 +48,7 @@ const Container = styled.section`
 
 function createCategoryFilter(category: string | Category) {
   return {
-    name: String(category),
+    name: String(category).split(' ')[0],
     function: (game: GeekGame) => game?.categories?.includes(String(category))
   }
 }
