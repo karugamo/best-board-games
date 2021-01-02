@@ -5,6 +5,7 @@ import games from '../games.json'
 import Game from './Game'
 import Logo from './Logo'
 import 'rc-slider/assets/index.css'
+import About from './About'
 
 export default function App() {
   const [complexityRange, setComplexityRange] = useState([1, 3])
@@ -29,6 +30,7 @@ export default function App() {
             return <Game key={game.name} game={game} />
           })}
       </GamesContainer>
+      <About />
     </Main>
   )
 }
