@@ -8,6 +8,7 @@ import 'rc-slider/assets/index.css'
 import About from './About'
 import FilterTags, {Filter} from './FilterTags'
 import {GeekGame} from '../types'
+import {shuffle} from 'lodash'
 
 export default function App() {
   const [complexityRange, setComplexityRange] = useState([1, 3])
@@ -19,18 +20,22 @@ export default function App() {
   return (
     <Main>
       <Logo />
-      <FilterTags onToggle={onToggleFilter} activeFilters={activeFilters} />
-      <RangeContainer>
-        <Range
-          value={complexityRange}
-          onChange={setComplexityRange}
-          min={1}
-          max={5}
-          defaultValue={[0, 3]}
-          marks={{1: 'very easy', 5: 'very complex'}}
-          dots
-        />
-      </RangeContainer>
+      <OptionsBar>
+        <FilterTags onToggle={onToggleFilter} activeFilters={activeFilters} />
+        <RangeContainer>
+          <Range
+            value={complexityRange}
+            onChange={setComplexityRange}
+            min={1}
+            max={5}
+            defaultValue={[0, 3]}
+            marks={{1: 'very easy', 5: 'very complex'}}
+            dots
+          />
+        </RangeContainer>
+        <Button onClick={shuffleGames}>Shuffle</Button>
+      </OptionsBar>
+
       <GamesContainer>
         {games
           .filter((game) => inRange(Math.round(game.weight), complexityRange))
@@ -51,6 +56,10 @@ export default function App() {
 
       setGames(filteredGames)
     }, [activeFilters])
+  }
+
+  function shuffleGames() {
+    setGames((games) => shuffle(games))
   }
 
   function onToggleFilter(filter: Filter) {
@@ -88,4 +97,41 @@ const GamesContainer = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+`
+
+const OptionsBar = styled.section`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1332px;
+  width: 100%;
+
+  @media (max-width: 1200px) {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+`
+
+const Button = styled.button`
+  font-size: 20px;
+  padding: 12px 40px;
+  border: 2px solid #333;
+  background-color: transparent;
+  color: #333;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 0px 2px white;
+
+  transition: background-color 0.2s, color 0.2s;
+
+  :hover {
+    background-color: #fffefd;
+    color: black;
+  }
+
+  :active {
+    transform: translate(0, 2px);
+    box-shadow: 0px 0px white;
+  }
 `
