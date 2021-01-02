@@ -63,6 +63,8 @@ async function getGame(id: GameId): Promise<GeekGame> {
     Number(item.maxplaytime)
   ]
 
+  const categories = item.links.boardgamesubdomain.map(({name}) => name)
+
   const asin = await getASIN(id)
   const color: string = (await showColors(image, 1))[0]
 
@@ -75,7 +77,8 @@ async function getGame(id: GameId): Promise<GeekGame> {
     weight,
     minAge,
     players,
-    playtime
+    playtime,
+    categories
   }
 }
 

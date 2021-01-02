@@ -1,17 +1,25 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import {Range} from 'rc-slider'
 import styled from 'styled-components'
-import games from '../games.json'
+import allGames from '../games.json'
 import Game from './Game'
 import Logo from './Logo'
 import 'rc-slider/assets/index.css'
 import About from './About'
+import FilterTags, {Filter} from './FilterTags'
+import {GeekGame} from '../types'
 
 export default function App() {
   const [complexityRange, setComplexityRange] = useState([1, 3])
+  const [activeFilters, setActiveFilters] = useState<Filter[]>([])
+  const [games, setGames] = useState<GeekGame[]>(allGames)
+
+  useFilterGames()
+
   return (
     <Main>
       <Logo />
+      <FilterTags onToggle={onToggleFilter} activeFilters={activeFilters} />
       <RangeContainer>
         <Range
           value={complexityRange}
@@ -33,6 +41,27 @@ export default function App() {
       <About />
     </Main>
   )
+
+  function useFilterGames() {
+    useEffect(() => {
+      const filteredGames = activeFilters.reduce(
+        (acc, filter) => acc.filter(filter.function),
+        allGames
+      )
+
+      setGames(filteredGames)
+    }, [activeFilters])
+  }
+
+  function onToggleFilter(filter: Filter) {
+    const isActive = activeFilters.map(({name}) => name).includes(filter.name)
+
+    setActiveFilters(
+      isActive
+        ? activeFilters.filter(({name}) => name !== filter.name)
+        : [...activeFilters, filter]
+    )
+  }
 }
 
 function inRange(number: number, range: number[]) {
