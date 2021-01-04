@@ -11,7 +11,7 @@ export default function Game({game, onOpen}: GameProps) {
   const {name, image, color, weight} = game
 
   return (
-    <GameContainer onClick={() => onOpen(game)}>
+    <GameContainer color={color} onClick={() => onOpen(game)}>
       <Image
         src={image}
         alt={name}
@@ -22,8 +22,13 @@ export default function Game({game, onOpen}: GameProps) {
   )
 }
 
-const GameContainer = styled.div`
+const GameContainer = styled.div<{color: string}>`
   cursor: pointer;
+  background-color: ${({color}) => color};
+
+  @media (max-width: 444px) {
+    width: 100%;
+  }
 `
 
 const Image = styled.img.attrs({width: '444', height: '250'})<{color: string}>`
@@ -31,4 +36,8 @@ const Image = styled.img.attrs({width: '444', height: '250'})<{color: string}>`
   height: 250px;
   object-fit: contain;
   background-color: ${(props) => props.color};
+
+  @media (max-width: 444px) {
+    width: 100%;
+  }
 `

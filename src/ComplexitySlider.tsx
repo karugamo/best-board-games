@@ -29,4 +29,8 @@ const RangeContainer = styled.div`
   max-width: 500px;
   height: 50px;
   width: 100%;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `

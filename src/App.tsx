@@ -87,6 +87,10 @@ const Main = styled.div`
   justify-content: center;
   margin: 10px;
   color: #262e6e;
+
+  @media (max-width: 444px) {
+    margin: 0%;
+  }
 `
 
 const GamesContainer = styled.div`
