@@ -9,6 +9,7 @@ import {shuffle} from 'lodash'
 import ComplexitySlider from './ComplexitySlider'
 import {About} from '@karugamo/components'
 import GameModal from './GameModal'
+import Button from './components/Button'
 
 export default function App() {
   const [complexityRange, setComplexityRange] = useState([1, 3])
@@ -46,9 +47,6 @@ export default function App() {
       />
     </Main>
   )
-
-  //
-  // const link = asin ? `https://www.amazon.com/dp/${asin}?tag=karugamo-20` : href
 
   function useFilterGames() {
     useEffect(() => {
@@ -106,33 +104,10 @@ const OptionsBar = styled.section`
   align-items: center;
   max-width: 1332px;
   width: 100%;
+  margin-bottom: 20px;
 
   @media (max-width: 1200px) {
     justify-content: center;
     margin-bottom: 10px;
-  }
-`
-
-const Button = styled.button`
-  font-size: 20px;
-  padding: 12px 40px;
-  border: 2px solid #272e6e;
-  background-color: transparent;
-  color: #272e6e;
-  margin-bottom: 20px;
-  cursor: pointer;
-  border-radius: 7px;
-  box-shadow: 0px 2px white;
-
-  transition: background-color 0.2s, color 0.2s;
-
-  :hover {
-    background-color: #272e6e;
-    color: white;
-  }
-
-  :active {
-    transform: translate(0, 2px);
-    box-shadow: 0px 0px white;
   }
 `
