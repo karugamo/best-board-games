@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import allGames from '../games.json'
 import Game from './Game'
 import Logo from './Logo'
-import About from './About'
 import FilterTags, {Filter} from './FilterTags'
 import {GeekGame} from '../types'
 import {shuffle} from 'lodash'
 import ComplexitySlider from './ComplexitySlider'
+import {About} from '@karugamo/components'
 
 export default function App() {
   const [complexityRange, setComplexityRange] = useState([1, 3])
