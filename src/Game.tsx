@@ -24,7 +24,7 @@ const GameContainer = styled.div``
 
 const Link = styled.a``
 
-const Image = styled.img<{color: string}>`
+const Image = styled.img.attrs({width: '444', height: '250'})<{color: string}>`
   width: 444px;
   height: 250px;
   object-fit: contain;
