@@ -9,6 +9,8 @@ export type GeekGame = {
   players: number[]
   playtime: number[]
   categories: string[]
+  id: string
+  youtubeId?: string
 }
 
 export type GameId = string

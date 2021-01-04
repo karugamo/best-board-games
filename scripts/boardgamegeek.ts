@@ -14,7 +14,7 @@ async function main() {
 }
 
 async function getBestGameIds(): Promise<GameId[]> {
-  let ids = []
+  let ids: string[] = []
   for (const pageNumber of [1, 2]) {
     const url = `https://boardgamegeek.com/browse/boardgame/page/${pageNumber}`
     const response = await got(url)
@@ -23,7 +23,7 @@ async function getBestGameIds(): Promise<GameId[]> {
       document.querySelectorAll('.collection_thumbnail a')
     )
     ids = ids.concat(
-      links.map((link) => link.getAttribute('href').split('/')[2])
+      links.map((link) => link.getAttribute('href')?.split('/')[2] as string)
     )
   }
 
@@ -35,7 +35,7 @@ async function getASIN(gameId: GameId) {
     `https://api.geekdo.com/api/amazon/itemurls?locale=us&objectid=${gameId}&objecttype=thing`
   ).json()
   const url = new URL('https:' + us)
-  return url.searchParams.get('asins')
+  return url.searchParams.get('asins') ?? ''
 }
 
 async function getAllGameDetails(ids: GameId[]): Promise<GeekGame[]> {
@@ -46,13 +46,13 @@ async function getGame(id: GameId): Promise<GeekGame> {
   const url = `https://boardgamegeek.com/boardgame/${id}`
   const {body} = await got(url)
   const document = new JSDOM(body).window.document
-  const image = document
-    .querySelector('meta[property~="og:image"]')
-    .getAttribute('content')
+  const image =
+    document
+      .querySelector('meta[property~="og:image"]')
+      ?.getAttribute('content') ?? ''
 
-  const name = document
-    .querySelector('meta[name~="title"]')
-    .getAttribute('content')
+  const name =
+    document.querySelector('meta[name~="title"]')?.getAttribute('content') ?? ''
 
   // yolo
   const {item} = eval(
@@ -79,6 +79,7 @@ async function getGame(id: GameId): Promise<GeekGame> {
   const color: string = (await showColors(image, 1))[0]
 
   return {
+    id,
     image,
     name,
     color,

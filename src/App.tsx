@@ -8,11 +8,14 @@ import {GeekGame} from '../types'
 import {shuffle} from 'lodash'
 import ComplexitySlider from './ComplexitySlider'
 import {About} from '@karugamo/components'
+import GameModal from './GameModal'
 
 export default function App() {
   const [complexityRange, setComplexityRange] = useState([1, 3])
   const [activeFilters, setActiveFilters] = useState<Filter[]>([])
   const [games, setGames] = useState<GeekGame[]>(allGames)
+
+  const [gameOpen, setGameOpen] = useState<GeekGame | null>(null)
 
   useFilterGames()
 
@@ -32,12 +35,20 @@ export default function App() {
         {games
           .filter((game) => inRange(Math.round(game.weight), complexityRange))
           .map((game) => {
-            return <Game key={game.name} game={game} />
+            return <Game key={game.name} game={game} onOpen={setGameOpen} />
           })}
       </GamesContainer>
       <About />
+      <GameModal
+        isOpen={Boolean(gameOpen)}
+        game={gameOpen}
+        onClose={() => setGameOpen(null)}
+      />
     </Main>
   )
+
+  //
+  // const link = asin ? `https://www.amazon.com/dp/${asin}?tag=karugamo-20` : href
 
   function useFilterGames() {
     useEffect(() => {

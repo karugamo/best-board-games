@@ -2,27 +2,29 @@ import React from 'react'
 import styled from 'styled-components'
 import {GeekGame} from '../types'
 
-export default function Game({game}: {game: GeekGame}) {
-  const {href, name, image, color, asin, weight} = game
+type GameProps = {
+  game: GeekGame
+  onOpen: (game: GeekGame) => void
+}
 
-  const link = asin ? `https://www.amazon.com/dp/${asin}?tag=karugamo-20` : href
+export default function Game({game, onOpen}: GameProps) {
+  const {name, image, color, weight} = game
+
   return (
-    <GameContainer>
-      <Link target="_blank" href={link}>
-        <Image
-          src={image}
-          alt={name}
-          title={`${name} (Complexity: ${weight.toFixed(1)})`}
-          color={color}
-        />
-      </Link>
+    <GameContainer onClick={() => onOpen(game)}>
+      <Image
+        src={image}
+        alt={name}
+        title={`${name} (Complexity: ${weight.toFixed(1)})`}
+        color={color}
+      />
     </GameContainer>
   )
 }
 
-const GameContainer = styled.div``
-
-const Link = styled.a``
+const GameContainer = styled.div`
+  cursor: pointer;
+`
 
 const Image = styled.img.attrs({width: '444', height: '250'})<{color: string}>`
   width: 444px;
