@@ -35,9 +35,9 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
               </InfoCell>
             </InfoBar>
           </GameInfo>
-          <Button onClick={() => window.open(amazonLink)}>
+          <InverseButton onClick={() => window.open(amazonLink)}>
             Buy on Amazon US
-          </Button>
+          </InverseButton>
         </BelowVideo>
       </InnerModal>
     </Modal>
@@ -73,7 +73,7 @@ const InfoCellContainer = styled.div`
 `
 
 const InfoCellLabel = styled.div`
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-size: 0.8em;
 `
@@ -114,8 +114,8 @@ function Players({number}: {number: Range}) {
 type Range = [number, number]
 
 function Difficulty({value}: {value: number}) {
-  const activeColor = 'rgba(0, 0,0, 0.9)'
-  const inactiveColor = 'rgba(32, 39, 92, 0.235)'
+  const activeColor = 'rgba(255, 255,255, 0.9)'
+  const inactiveColor = 'rgba(255, 255, 255, 0.235)'
   const size = 5
 
   return (
@@ -151,7 +151,6 @@ function createAmazonLink(
 }
 
 const Title = styled.h3`
-  color: #262e6e;
   font-size: 1.8rem;
   padding: 0.8rem 0;
   margin: 0;
@@ -167,5 +166,16 @@ const BelowVideo = styled.div`
 `
 
 const InnerModal = styled.div`
-  background-color: #fff1d8;
+  background-color: #080913;
+  color: rgba(255, 255, 255, 0.9);
+`
+
+const InverseButton = styled(Button)`
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  outline: 0;
+
+  :hover {
+    background-color: transparent;
+  }
 `

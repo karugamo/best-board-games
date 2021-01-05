@@ -34,6 +34,7 @@ const StyledModal = styled(ReactModalWrapper).attrs({
   .Content {
     background: rgba(0, 0, 0, 0);
     border-radius: 4px;
+    box-shadow: 0px 2px 16px rgba(255, 241, 216, 0.2);
     outline: none;
     width: 920px;
     overflow-y: auto;
