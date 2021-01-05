@@ -48,6 +48,11 @@ const GameInfo = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  width: 100%;
+
+  @media (max-width: 600px) {
+    margin-bottom: 12px;
+  }
 `
 
 const InfoBar = styled.div`
@@ -163,6 +168,10 @@ const BelowVideo = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `
 
 const InnerModal = styled.div`
