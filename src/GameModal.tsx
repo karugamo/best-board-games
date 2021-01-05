@@ -1,5 +1,5 @@
 import {times} from 'lodash'
-import React from 'react'
+import React, {ReactNode} from 'react'
 import styled from 'styled-components'
 import {GeekGame} from '../types'
 import Button from './components/Button'
@@ -15,7 +15,7 @@ type GameModalProps = {
 export default function GameModal({game, isOpen, onClose}: GameModalProps) {
   if (!game) return null
 
-  const {youtubeId, asin, name, weight} = game
+  const {youtubeId, asin, name, weight, minAge, playtime, players} = game
 
   const amazonLink = createAmazonLink(asin, name)
 
@@ -24,8 +24,17 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
       <InnerModal>
         {youtubeId && <YoutubeWidget videoId={youtubeId} />}
         <BelowVideo>
-          <Title>{name}</Title>
-          <Difficulty value={weight} />
+          <GameInfo>
+            <Title>{name}</Title>
+            <InfoBar>
+              <InfoCell label="Age">{minAge}+</InfoCell>
+              <PlayTime minutes={playtime as Range} />
+              <Players number={players as Range} />
+              <InfoCell label="Difficulty">
+                <Difficulty value={weight} />
+              </InfoCell>
+            </InfoBar>
+          </GameInfo>
           <Button onClick={() => window.open(amazonLink)}>
             Buy on Amazon US
           </Button>
@@ -35,8 +44,67 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
   )
 }
 
+const GameInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+`
+
+const InfoBar = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+`
+
+function InfoCell({children, label}: {children: ReactNode; label: string}) {
+  return (
+    <InfoCellContainer>
+      <InfoCellLabel>{label}</InfoCellLabel>
+      <InfoCellMain>{children}</InfoCellMain>
+    </InfoCellContainer>
+  )
+}
+
+const InfoCellContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+`
+
+const InfoCellLabel = styled.div`
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  font-size: 0.8em;
+`
+
+const InfoCellMain = styled.div`
+  font-size: 1.2rem;
+  line-height: 35px;
+`
+
+function PlayTime({minutes}: {minutes: Range}) {
+  return (
+    <InfoCell label={'Time'}>
+      {(minutes[0] === minutes[1]
+        ? minutes[0]
+        : `${minutes[0]}-${minutes[1]}`) + 'min'}
+    </InfoCell>
+  )
+}
+
+function Players({number}: {number: Range}) {
+  return (
+    <InfoCell label="Players">
+      {number[0] === number[1] ? number[0] + '' : `${number[0]}-${number[1]}`}
+    </InfoCell>
+  )
+}
+
+type Range = [number, number]
+
 function Difficulty({value}: {value: number}) {
-  const activeColor = '#262e6e'
+  const activeColor = 'rgba(0, 0,0, 0.9)'
   const inactiveColor = 'rgba(32, 39, 92, 0.235)'
   const size = 5
 
@@ -76,7 +144,9 @@ const Title = styled.h3`
   color: #262e6e;
   font-size: 1.8rem;
   margin: 0;
+  margin-bottom: 1.2rem;
   font-weight: normal;
+  text-align: center;
 `
 
 const BelowVideo = styled.div`
