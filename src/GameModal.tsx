@@ -1,3 +1,4 @@
+import {times} from 'lodash'
 import React from 'react'
 import styled from 'styled-components'
 import {GeekGame} from '../types'
@@ -14,7 +15,7 @@ type GameModalProps = {
 export default function GameModal({game, isOpen, onClose}: GameModalProps) {
   if (!game) return null
 
-  const {youtubeId, asin, name} = game
+  const {youtubeId, asin, name, weight} = game
 
   const amazonLink = createAmazonLink(asin, name)
 
@@ -24,12 +25,41 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
         {youtubeId && <YoutubeWidget videoId={youtubeId} />}
         <BelowVideo>
           <Title>{name}</Title>
+          <Difficulty value={weight} />
           <Button onClick={() => window.open(amazonLink)}>
             Buy on Amazon US
           </Button>
         </BelowVideo>
       </InnerModal>
     </Modal>
+  )
+}
+
+function Difficulty({value}: {value: number}) {
+  const activeColor = '#262e6e'
+  const inactiveColor = 'rgba(32, 39, 92, 0.235)'
+  const size = 5
+
+  return (
+    <svg
+      width={30}
+      height={30}
+      viewBox="0 0 25 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>Difficulty</title>
+      {times(size).map((number) => (
+        <rect
+          key={number}
+          fill={value > number ? activeColor : inactiveColor}
+          y={16 - 4 * number}
+          x={5 * number}
+          width={3}
+          height={4 + 4 * number}
+          radius={2}
+        />
+      ))}
+    </svg>
   )
 }
 
