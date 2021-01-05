@@ -22,10 +22,10 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <InnerModal>
+        <Title>{name}</Title>
         {youtubeId && <YoutubeWidget videoId={youtubeId} />}
         <BelowVideo>
           <GameInfo>
-            <Title>{name}</Title>
             <InfoBar>
               <InfoCell label="Age">{minAge}+</InfoCell>
               <PlayTime minutes={playtime as Range} />
@@ -84,11 +84,21 @@ const InfoCellMain = styled.div`
 `
 
 function PlayTime({minutes}: {minutes: Range}) {
+  let start: number
+  let end: number
+  let type: string
+  if (minutes[0] >= 60) {
+    start = Math.round(minutes[0] / 60)
+    end = Math.round(minutes[0] / 60)
+    type = 'h'
+  } else {
+    start = minutes[0]
+    end = minutes[1]
+    type = 'min'
+  }
   return (
     <InfoCell label={'Time'}>
-      {(minutes[0] === minutes[1]
-        ? minutes[0]
-        : `${minutes[0]}-${minutes[1]}`) + 'min'}
+      {(start === end ? start : `${start}-${end}`) + type}
     </InfoCell>
   )
 }
@@ -143,8 +153,8 @@ function createAmazonLink(
 const Title = styled.h3`
   color: #262e6e;
   font-size: 1.8rem;
+  padding: 0.8rem 0;
   margin: 0;
-  margin-bottom: 1.2rem;
   font-weight: normal;
   text-align: center;
 `
