@@ -29,7 +29,7 @@ export default function App() {
           value={complexityRange}
           onChange={setComplexityRange}
         />
-        <Button onClick={shuffleGames}>Shuffle</Button>
+        <ShuffleButton onClick={shuffleGames}>Shuffle</ShuffleButton>
       </OptionsBar>
 
       <GamesContainer>
@@ -102,12 +102,19 @@ const OptionsBar = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1332px;
+  max-width: 1351px;
   width: 100%;
   margin-bottom: 20px;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1351px) {
     justify-content: center;
     margin-bottom: 10px;
+    flex-direction: column;
+  }
+`
+
+const ShuffleButton = styled(Button)`
+  @media (max-width: 1351px) {
+    display: none;
   }
 `

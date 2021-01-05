@@ -40,6 +40,10 @@ const Container = styled.section`
   justify-content: flex-start;
   flex-wrap: wrap;
   max-width: 1100px;
+
+  @media (max-width: 1351px) {
+    justify-content: center;
+  }
 `
 
 function createCategoryFilter(category: string | Category) {
