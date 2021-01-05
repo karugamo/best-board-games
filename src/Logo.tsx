@@ -5,7 +5,8 @@ export default function Logo() {
     <svg
       width="362"
       height="58"
-      style={{margin: '1rem 2rem'}}
+      max-width="90%"
+      style={{margin: '1rem 2rem', maxWidth: '90%'}}
       viewBox="0 0 362 58"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
