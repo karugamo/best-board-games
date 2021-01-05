@@ -51,7 +51,7 @@ function Difficulty({value}: {value: number}) {
       {times(size).map((number) => (
         <rect
           key={number}
-          fill={value > number ? activeColor : inactiveColor}
+          fill={Math.round(value) > number ? activeColor : inactiveColor}
           y={16 - 4 * number}
           x={5 * number}
           width={3}
