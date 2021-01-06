@@ -130,7 +130,7 @@ function Difficulty({value}: {value: number}) {
       viewBox="0 0 25 20"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <title>Difficulty</title>
+      <title>Difficulty: {value}</title>
       {times(size).map((number) => (
         <rect
           key={number}
