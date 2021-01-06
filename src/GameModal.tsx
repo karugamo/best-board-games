@@ -7,7 +7,7 @@ import Modal from './Modal'
 import YoutubeWidget from './YoutubeWidget'
 
 type GameModalProps = {
-  game: GeekGame | null
+  game?: GeekGame
   onClose: () => void
   isOpen: boolean
 }
