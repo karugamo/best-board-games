@@ -183,6 +183,7 @@ const InverseButton = styled(Button)`
   color: rgba(255, 255, 255, 0.9);
   border-color: rgba(255, 255, 255, 0.9);
   outline: 0;
+  white-space: nowrap;
 
   :hover {
     background-color: transparent;
