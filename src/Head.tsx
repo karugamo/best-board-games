@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 export default function Head() {
   return (
-    <Helmet>
+    <Helmet htmlAttributes={{lang: 'en'}}>
       <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-48B8E17WMR"
