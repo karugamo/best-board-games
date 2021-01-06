@@ -42,6 +42,10 @@ const StyledModal = styled(ReactModalWrapper).attrs({
     @media (max-width: 920px) {
       width: 100%;
     }
+    @media (max-width: 600px) {
+      height: 100vh;
+      border-radius: 0px;
+    }
   }
 
   .Overlay {

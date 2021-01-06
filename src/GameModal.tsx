@@ -206,6 +206,10 @@ const InnerModal = styled.div`
   background-color: #080913;
   color: rgba(255, 255, 255, 0.9);
   position: relative;
+
+  @media (max-width: 600px) {
+    height: 100vh;
+  }
 `
 
 const InverseButton = styled(Button)`
