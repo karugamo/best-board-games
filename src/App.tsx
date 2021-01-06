@@ -10,18 +10,32 @@ import ComplexitySlider from './ComplexitySlider'
 import {About} from '@karugamo/components'
 import GameModal from './GameModal'
 import Button from './components/Button'
+import Head from './Head'
+import Helmet from 'react-helmet'
 
-export default function App() {
+type AppProps = {
+  pageContext: {
+    game?: GeekGame
+  }
+}
+
+export default function App({pageContext: {game}}: AppProps) {
   const [complexityRange, setComplexityRange] = useState([1, 3])
   const [activeFilters, setActiveFilters] = useState<Filter[]>([])
   const [games, setGames] = useState<GeekGame[]>(allGames)
 
-  const [gameOpen, setGameOpen] = useState<GeekGame | null>(null)
+  const [gameOpen, setGameOpen] = useState<GeekGame | null>(game || null)
 
   useFilterGames()
 
   return (
     <Main>
+      <Head />
+      <Helmet>
+        <title>
+          Best Board Games | {gameOpen?.name ?? 'List of best boad games'}
+        </title>
+      </Helmet>
       <Logo />
       <OptionsBar>
         <FilterTags onToggle={onToggleFilter} activeFilters={activeFilters} />
@@ -36,17 +50,27 @@ export default function App() {
         {games
           .filter((game) => inRange(Math.round(game.weight), complexityRange))
           .map((game) => {
-            return <Game key={game.name} game={game} onOpen={setGameOpen} />
+            return <Game key={game.name} game={game} onOpen={onGameOpen} />
           })}
       </GamesContainer>
       <About />
       <GameModal
         isOpen={Boolean(gameOpen)}
         game={gameOpen}
-        onClose={() => setGameOpen(null)}
+        onClose={onGameClose}
       />
     </Main>
   )
+
+  function onGameOpen(game: GeekGame) {
+    setGameOpen(game)
+    window.history.pushState({}, game.name, `/game/${encodeName(game.name)}`)
+  }
+
+  function onGameClose() {
+    setGameOpen(null)
+    window.history.pushState({}, 'Best Board Games', '/')
+  }
 
   function useFilterGames() {
     useEffect(() => {
@@ -118,3 +142,10 @@ const ShuffleButton = styled(Button)`
     display: none;
   }
 `
+
+function encodeName(name) {
+  return name
+    .replace(/[^\w\s]/gi, '')
+    .trim()
+    .replace(/ /g, '_')
+}
