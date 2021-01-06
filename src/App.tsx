@@ -27,6 +27,7 @@ export default function App({pageContext: {game}}: AppProps) {
   const [gameOpen, setGameOpen] = useState<GeekGame | null>(game || null)
 
   useFilterGames()
+  useCrappyHistoryHelper()
 
   return (
     <Main>
@@ -70,6 +71,14 @@ export default function App({pageContext: {game}}: AppProps) {
   function onGameClose() {
     setGameOpen(null)
     window.history.pushState({}, 'Best Board Games', '/')
+  }
+
+  function useCrappyHistoryHelper() {
+    useEffect(() => {
+      onpopstate = () => {
+        if (location.pathname === '/') setGameOpen(null)
+      }
+    }, [])
   }
 
   function useFilterGames() {
