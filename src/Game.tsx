@@ -8,16 +8,11 @@ type GameProps = {
 }
 
 export default function Game({game, onOpen}: GameProps) {
-  const {name, image, color, weight} = game
+  const {name, image, color} = game
 
   return (
     <GameContainer color={color} onClick={() => onOpen(game)}>
-      <Image
-        src={image}
-        alt={name}
-        title={`${name} (Complexity: ${weight.toFixed(1)})`}
-        color={color}
-      />
+      <Image src={image} alt={name} title={name} color={color} />
     </GameContainer>
   )
 }
