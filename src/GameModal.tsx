@@ -23,6 +23,9 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
     <Modal isOpen={isOpen} onClose={onClose}>
       <InnerModal>
         <Title>{name}</Title>
+        <Close onClick={onClose}>
+          <CloseIcon />
+        </Close>
         {youtubeId && <YoutubeWidget videoId={youtubeId} />}
         <BelowVideo>
           <GameInfo>
@@ -41,6 +44,31 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
         </BelowVideo>
       </InnerModal>
     </Modal>
+  )
+}
+
+const Close = styled.div`
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+`
+
+function CloseIcon() {
+  return (
+    <svg
+      width={25}
+      height={25}
+      fill="currentColor"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
+    </svg>
   )
 }
 
@@ -177,6 +205,7 @@ const BelowVideo = styled.div`
 const InnerModal = styled.div`
   background-color: #080913;
   color: rgba(255, 255, 255, 0.9);
+  position: relative;
 `
 
 const InverseButton = styled(Button)`
