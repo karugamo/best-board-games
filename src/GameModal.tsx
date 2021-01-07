@@ -1,4 +1,4 @@
-import {times} from 'lodash'
+import {round, times} from 'lodash'
 import React, {ReactNode} from 'react'
 import styled from 'styled-components'
 import {GeekGame} from '../types'
@@ -15,7 +15,17 @@ type GameModalProps = {
 export default function GameModal({game, isOpen, onClose}: GameModalProps) {
   if (!game) return null
 
-  const {youtubeId, asin, name, weight, minAge, playtime, players} = game
+  const {
+    id,
+    youtubeId,
+    asin,
+    name,
+    weight,
+    minAge,
+    playtime,
+    players,
+    rating
+  } = game
 
   const amazonLink = createAmazonLink(asin, name)
 
@@ -36,6 +46,13 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
               <InfoCell label="Difficulty">
                 <Difficulty value={weight} />
               </InfoCell>
+              <Link
+                target="_blank"
+                rel="noopener"
+                href={`https://boardgamegeek.com/boardgame/${id}/kemet`}
+              >
+                <InfoCell label="BGG Score">{round(rating, 1)}</InfoCell>
+              </Link>
             </InfoBar>
           </GameInfo>
           <InverseButton onClick={() => window.open(amazonLink)}>
@@ -46,6 +63,19 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
     </Modal>
   )
 }
+
+const Link = styled.a`
+  text-decoration: none;
+  color: unset;
+
+  :hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  :visited {
+    color: unset;
+  }
+`
 
 const Close = styled.div`
   position: absolute;
@@ -103,9 +133,11 @@ const InfoCellContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 10px;
+  padding-bottom: 5px;
 `
 
-const InfoCellLabel = styled.div`
+const InfoCellLabel = styled.label`
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-size: 0.8em;
@@ -192,7 +224,7 @@ const Title = styled.h3`
 `
 
 const BelowVideo = styled.div`
-  padding: 10px 25px;
+  padding: 0px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;

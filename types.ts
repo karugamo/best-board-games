@@ -6,6 +6,7 @@ export type GeekGame = {
   asin?: string
   weight: number
   minAge: number
+  rating: number
   players: number[]
   playtime: number[]
   categories: string[]

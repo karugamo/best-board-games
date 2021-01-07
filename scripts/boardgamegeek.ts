@@ -60,6 +60,7 @@ async function getGame(id: GameId): Promise<GeekGame> {
   )
 
   const weight = Number(item.stats.avgweight)
+  const rating = Number(item.stats.average)
   const minAge = Number(item.minage)
   const players: [number, number] = [
     Number(item.minplayers),
@@ -89,7 +90,8 @@ async function getGame(id: GameId): Promise<GeekGame> {
     minAge,
     players,
     playtime,
-    categories
+    categories,
+    rating
   }
 }
 
