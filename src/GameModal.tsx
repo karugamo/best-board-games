@@ -49,9 +49,10 @@ export default function GameModal({game, isOpen, onClose}: GameModalProps) {
               <Link
                 target="_blank"
                 rel="noopener"
+                title="BordGameGeek Score"
                 href={`https://boardgamegeek.com/boardgame/${id}/kemet`}
               >
-                <InfoCell label="BGG Score">{round(rating, 1)}</InfoCell>
+                <InfoCell label="Rating">{round(rating, 1)}</InfoCell>
               </Link>
             </InfoBar>
           </GameInfo>
@@ -141,6 +142,7 @@ const InfoCellLabel = styled.label`
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-size: 0.8em;
+  text-align: center;
 `
 
 const InfoCellMain = styled.div`
