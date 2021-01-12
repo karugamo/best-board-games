@@ -56,7 +56,7 @@ function createCategoryFilter(category: string | Category) {
 
 const twoPlayerFilter = {
   name: '2-Player',
-  function: (game: GeekGame) => game?.players[0] <= 2 && game?.players[1] >= 2
+  function: (game: GeekGame) => game?.players[1] === 2
 }
 
 type FilterTagProps = {
