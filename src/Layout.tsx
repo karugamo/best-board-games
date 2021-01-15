@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import styled from 'styled-components'
-import allGames from '../games.json'
+import initialGames from '../games.json'
 import Game from './Game'
 import Logo from './Logo'
 import FilterTags, {Filter} from './FilterTags'
@@ -15,6 +15,7 @@ import {navigate} from 'gatsby'
 export default function Layout({children}) {
   const [complexityRange, setComplexityRange] = useState([1, 3])
   const [activeFilters, setActiveFilters] = useState<Filter[]>([])
+  const [allGames, setAllGames] = useState<GeekGame[]>(initialGames)
   const [games, setGames] = useState<GeekGame[]>(allGames)
 
   useFilterGames()
@@ -58,11 +59,12 @@ export default function Layout({children}) {
       )
 
       setGames(filteredGames)
-    }, [activeFilters])
+    }, [activeFilters, allGames])
   }
 
   function shuffleGames() {
     setGames((games) => shuffle(games))
+    setAllGames((games) => shuffle(games))
   }
 
   function onToggleFilter(filter: Filter) {
