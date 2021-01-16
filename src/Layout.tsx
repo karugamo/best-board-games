@@ -6,7 +6,8 @@ import Logo from './Logo'
 import FilterTags, {Filter} from './FilterTags'
 import {GeekGame} from '../types'
 import {shuffle, times} from 'lodash'
-import Slider from './components/Slider'
+import RangeSlider from './components/RangeSlider'
+import SingleSlider from './components/SingleSlider'
 import {About} from '@karugamo/components'
 import Button from './components/Button'
 import Head from './Head'
@@ -14,7 +15,7 @@ import {navigate} from 'gatsby'
 
 export default function Layout({children}) {
   const [complexityRange, setComplexityRange] = useState([1, 3])
-  const [playerRange, setPlayerRange] = useState([2, 6])
+  const [playerFilter, setPlayerFilter] = useState(4)
   const [activeFilters, setActiveFilters] = useState<Filter[]>([])
   const [allGames, setAllGames] = useState<GeekGame[]>(initialGames)
   const [games, setGames] = useState<GeekGame[]>(allGames)
@@ -28,16 +29,16 @@ export default function Layout({children}) {
       <OptionsBar>
         <FilterTags onToggle={onToggleFilter} activeFilters={activeFilters} />
         <Sliders>
-          <Slider
+          <RangeSlider
             value={complexityRange}
             onChange={setComplexityRange}
             min={1}
             max={5}
             marks={{1: 'very easy', 3: 'medium', 5: 'very  hard'}}
           />
-          <Slider
-            value={playerRange}
-            onChange={setPlayerRange}
+          <SingleSlider
+            value={playerFilter}
+            onChange={setPlayerFilter}
             min={1}
             max={8}
             marks={playerSliderMarks}
@@ -49,7 +50,7 @@ export default function Layout({children}) {
       <GamesContainer>
         {games
           .filter((game) => inRange(Math.round(game.weight), complexityRange))
-          .filter((game) => inPlayerRange(game.players, playerRange))
+          .filter((game) => inRange(playerFilter, game.players))
           .map((game) => {
             return (
               <Game
@@ -94,13 +95,6 @@ export default function Layout({children}) {
 
 function inRange(number: number, range: number[]) {
   return number >= range[0] && number <= range[1]
-}
-
-function inPlayerRange(players: number[], range: number[]) {
-  return (
-    (range[0] >= players[0] && range[0] <= players[1]) ||
-    (range[1] >= players[0] && range[1] <= players[0])
-  )
 }
 
 const Main = styled.div`

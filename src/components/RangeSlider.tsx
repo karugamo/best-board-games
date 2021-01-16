@@ -3,7 +3,14 @@ import {Range} from 'rc-slider'
 import styled from 'styled-components'
 import 'rc-slider/assets/index.css'
 
-export default function Slider({value, onChange, min, max, marks}: SliderProps) {
+export default function RangeSlider({
+  value,
+  onChange,
+  min,
+  max,
+  step,
+  marks
+}: RangeSliderProps) {
   return (
     <RangeContainer>
       <Range
@@ -19,18 +26,20 @@ export default function Slider({value, onChange, min, max, marks}: SliderProps) 
           {border: 'solid 2px #272e6e'},
           {border: 'solid 2px #272e6e'}
         ]}
+        step={step}
         activeDotStyle={{border: 'solid 2px #272e6e'}}
       />
     </RangeContainer>
   )
 }
 
-type SliderProps = {
-  value: number[];
-  onChange: (value: number[]) => void;
-  min: number;
-  max: number;
-  marks: any;
+type RangeSliderProps = {
+  value: number[]
+  onChange: (value: number[]) => void
+  min: number
+  max: number
+  marks?: any
+  step?: number
 }
 
 const RangeContainer = styled.div`
