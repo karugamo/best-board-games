@@ -9,7 +9,8 @@ export default function SingleSlider({
   min,
   max,
   step,
-  marks
+  marks,
+  track
 }: SingleSliderProps) {
   return (
     <SliderContainer>
@@ -21,10 +22,12 @@ export default function SingleSlider({
         defaultValue={value}
         marks={marks}
         dots
-        trackStyle={{backgroundColor: '#e9e9e9'}}
+        trackStyle={{backgroundColor: track ? '#272e6e' : '#e9e9e9'}}
         handleStyle={{border: 'solid 2px #272e6e'}}
         step={step}
-        activeDotStyle={{border: 'solid 2px #e9e9e9'}}
+        activeDotStyle={{
+          border: track ? 'solid 2px #272e6e' : 'solid 2px #e9e9e9'
+        }}
       />
     </SliderContainer>
   )
@@ -37,6 +40,7 @@ type SingleSliderProps = {
   max: number
   marks?: any
   step?: number
+  track?: boolean
 }
 
 const SliderContainer = styled.div`

@@ -57,7 +57,7 @@ function PlayTime({minutes}: {minutes: Range}) {
   let type: string
   if (minutes[0] >= 60) {
     start = Math.round(minutes[0] / 60)
-    end = Math.round(minutes[0] / 60)
+    end = Math.round(minutes[1] / 60)
     type = 'h'
   } else {
     start = minutes[0]

@@ -16,6 +16,7 @@ import {navigate} from 'gatsby'
 export default function Layout({children}) {
   const [complexityRange, setComplexityRange] = useState([1, 3])
   const [playerFilter, setPlayerFilter] = useState(4)
+  const [playtimeFilter, setPlaytimeFilter] = useState(3)
   const [activeFilters, setActiveFilters] = useState<Filter[]>([])
   const [allGames, setAllGames] = useState<GeekGame[]>(initialGames)
   const [games, setGames] = useState<GeekGame[]>(allGames)
@@ -43,6 +44,20 @@ export default function Layout({children}) {
             max={8}
             marks={playerSliderMarks}
           />
+          <SingleSlider
+            value={playtimeFilter}
+            onChange={setPlaytimeFilter}
+            min={1}
+            max={5}
+            marks={{
+              1: '15 min',
+              2: '30 min',
+              3: '1 hour',
+              4: '2 hours',
+              5: '4 hours'
+            }}
+            track
+          />
         </Sliders>
         <ShuffleButton onClick={shuffleGames}>Shuffle</ShuffleButton>
       </OptionsBar>
@@ -51,6 +66,9 @@ export default function Layout({children}) {
         {games
           .filter((game) => inRange(Math.round(game.weight), complexityRange))
           .filter((game) => inRange(playerFilter, game.players))
+          .filter((game) =>
+            inRange(playtimeFilterToMinutes[playtimeFilter], game.playtime)
+          )
           .map((game) => {
             return (
               <Game
@@ -162,3 +180,11 @@ const playerSliderMarks = times(8).reduce((obj, n) => {
   if (n === 7) return {...obj, [n + 1]: '8 players'}
   return {...obj, [n + 1]: `${n + 1}`}
 }, {})
+
+const playtimeFilterToMinutes = {
+  1: 15,
+  2: 30,
+  3: 60,
+  4: 120,
+  5: 240
+}
