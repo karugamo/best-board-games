@@ -3,16 +3,16 @@ import {Range} from 'rc-slider'
 import styled from 'styled-components'
 import 'rc-slider/assets/index.css'
 
-export default function ComplexitySlider({value, onChange}) {
+export default function Slider({value, onChange, min, max, marks}: SliderProps) {
   return (
     <RangeContainer>
       <Range
         value={value}
         onChange={onChange}
-        min={1}
-        max={5}
-        defaultValue={[0, 3]}
-        marks={{1: 'very easy', 5: 'very complex'}}
+        min={min}
+        max={max}
+        defaultValue={[min, max]}
+        marks={marks}
         dots
         trackStyle={[{backgroundColor: '#272e6e'}]}
         handleStyle={[
@@ -23,6 +23,14 @@ export default function ComplexitySlider({value, onChange}) {
       />
     </RangeContainer>
   )
+}
+
+type SliderProps = {
+  value: number[];
+  onChange: (value: number[]) => void;
+  min: number;
+  max: number;
+  marks: any;
 }
 
 const RangeContainer = styled.div`

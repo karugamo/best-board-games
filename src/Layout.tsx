@@ -5,8 +5,8 @@ import Game from './Game'
 import Logo from './Logo'
 import FilterTags, {Filter} from './FilterTags'
 import {GeekGame} from '../types'
-import {shuffle} from 'lodash'
-import ComplexitySlider from './ComplexitySlider'
+import {shuffle, times} from 'lodash'
+import Slider from './components/Slider'
 import {About} from '@karugamo/components'
 import Button from './components/Button'
 import Head from './Head'
@@ -14,6 +14,7 @@ import {navigate} from 'gatsby'
 
 export default function Layout({children}) {
   const [complexityRange, setComplexityRange] = useState([1, 3])
+  const [playerRange, setPlayerRange] = useState([2, 6])
   const [activeFilters, setActiveFilters] = useState<Filter[]>([])
   const [allGames, setAllGames] = useState<GeekGame[]>(initialGames)
   const [games, setGames] = useState<GeekGame[]>(allGames)
@@ -26,16 +27,29 @@ export default function Layout({children}) {
       <Logo />
       <OptionsBar>
         <FilterTags onToggle={onToggleFilter} activeFilters={activeFilters} />
-        <ComplexitySlider
-          value={complexityRange}
-          onChange={setComplexityRange}
-        />
+        <Sliders>
+          <Slider
+            value={complexityRange}
+            onChange={setComplexityRange}
+            min={1}
+            max={5}
+            marks={{1: 'very easy', 3: 'medium', 5: 'very  hard'}}
+          />
+          <Slider
+            value={playerRange}
+            onChange={setPlayerRange}
+            min={1}
+            max={8}
+            marks={playerSliderMarks}
+          />
+        </Sliders>
         <ShuffleButton onClick={shuffleGames}>Shuffle</ShuffleButton>
       </OptionsBar>
 
       <GamesContainer>
         {games
           .filter((game) => inRange(Math.round(game.weight), complexityRange))
+          .filter((game) => inPlayerRange(game.players, playerRange))
           .map((game) => {
             return (
               <Game
@@ -82,6 +96,13 @@ function inRange(number: number, range: number[]) {
   return number >= range[0] && number <= range[1]
 }
 
+function inPlayerRange(players: number[], range: number[]) {
+  return (
+    (range[0] >= players[0] && range[0] <= players[1]) ||
+    (range[1] >= players[0] && range[1] <= players[0])
+  )
+}
+
 const Main = styled.div`
   display: flex;
   flex-direction: column;
@@ -123,9 +144,27 @@ const ShuffleButton = styled(Button)`
   }
 `
 
+const Sliders = styled.div`
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  min-width: 500px;
+
+  @media (max-width: 500px) {
+    min-width: 100vw;
+  }
+`
+
 function encodeName(name) {
   return name
     .replace(/[^\w\s]/gi, '')
     .trim()
     .replace(/ /g, '_')
 }
+
+const playerSliderMarks = times(8).reduce((obj, n) => {
+  if (n === 0) return {...obj, [n + 1]: '1 player'}
+  if (n === 7) return {...obj, [n + 1]: '8 players'}
+  return {...obj, [n + 1]: `${n + 1}`}
+}, {})

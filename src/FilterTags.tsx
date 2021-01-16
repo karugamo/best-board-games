@@ -29,7 +29,6 @@ export default function FilterTags({onToggle, activeFilters}: FilterTagsProps) {
           filter={createCategoryFilter(category)}
         />
       ))}
-      <FilterTag {...filterTagProps} filter={twoPlayerFilter} />
     </Container>
   )
 }
@@ -52,11 +51,6 @@ function createCategoryFilter(category: string | Category) {
     name: String(category).split(' ')[0],
     function: (game: GeekGame) => game?.categories?.includes(String(category))
   }
-}
-
-const twoPlayerFilter = {
-  name: '2-Player',
-  function: (game: GeekGame) => game?.players[1] === 2
 }
 
 type FilterTagProps = {
