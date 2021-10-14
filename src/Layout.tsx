@@ -12,6 +12,7 @@ import {About} from '@karugamo/components'
 import Button from './components/Button'
 import Head from './Head'
 import {navigate} from 'gatsby'
+import OverwhelminglyPositiveLink from './components/OverwhelminglyPositiveLink'
 
 export default function Layout({children}) {
   const [complexityRange, setComplexityRange] = useState([1, 3])
@@ -79,6 +80,7 @@ export default function Layout({children}) {
             )
           })}
       </GamesContainer>
+      <OverwhelminglyPositiveLink />
       <About />
       {children}
     </Main>
